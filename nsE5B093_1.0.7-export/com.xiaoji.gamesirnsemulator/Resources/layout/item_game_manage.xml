@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:binding="http://schemas.android.com/apk/res-auto" android:gravity="0x11" android:orientation="1" android:tag="layout/item_game_manage_0" android:layout_width="-2" android:layout_height="-2" android:layout_marginRight="28.0mm" android:layout_marginEnd="28.0mm">
+    <FrameLayout android:layout_width="150.0dp" android:layout_height="150.0dp">
+        <ImageView android:tag="binding_1" android:background="@color/color_font_2" android:layout_width="-1" android:layout_height="-1" android:src="@drawable/img_game_default" android:scaleType="1"/>
+        <ImageView android:layout_gravity="0x800005" android:tag="binding_2" android:layout_width="25.0dp" android:layout_height="25.0dp" android:layout_marginTop="10.0dp" android:layout_marginEnd="10.0dp"/>
+        <LinearLayout android:gravity="0x1" android:layout_gravity="0x50" android:orientation="1" android:background="@color/item_bg_trans" android:padding="10.0dp" android:layout_width="-1" android:layout_height="-2">
+            <TextView android:textSize="@dimen/font_middle" android:textColor="@color/white" android:tag="binding_3" android:layout_width="-2" android:layout_height="-2" android:maxLines="2"/>
+        </LinearLayout>
+    </FrameLayout>
+</LinearLayout>

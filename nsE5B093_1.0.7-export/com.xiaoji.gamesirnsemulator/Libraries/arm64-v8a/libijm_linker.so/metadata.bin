@@ -1,0 +1,12 @@
+ELF metadata
+
+- Comment:
+
+  + GCC: (GNU) 4.9.x 20150123 (prerelease)
+  + clang version 5.0.1 (tags/RELEASE_501/final)
+
+- Notes:
+
+  + Owner: GNU
+    - type: NT_GNU_BUILD_ID (unique build ID)
+    - description: Build ID[sha1]=CAC038AC5ADC31A29EE644770A022AB1FA6779E2

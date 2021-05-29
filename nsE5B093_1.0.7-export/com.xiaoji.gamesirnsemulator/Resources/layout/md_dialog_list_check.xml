@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<com.afollestad.materialdialogs.internal.MDRootLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="1" android:layout_width="-1" android:layout_height="-2">
+    <include layout="@layout/md_stub_titleframe_lesspadding"/>
+    <LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-1">
+        <ScrollView android:id="@id/md_contentScrollView" android:clipToPadding="false" android:layout_width="-1" android:layout_height="-2">
+            <TextView android:textSize="@dimen/md_content_textsize" android:id="@id/md_content" android:paddingLeft="@dimen/md_dialog_frame_margin" android:paddingTop="@dimen/md_content_padding_top" android:paddingRight="@dimen/md_dialog_frame_margin" android:paddingBottom="@dimen/md_content_padding_bottom" android:layout_width="-1" android:layout_height="-2"/>
+        </ScrollView>
+        <FrameLayout android:id="@id/md_contentListViewFrame" android:layout_width="-1" android:layout_height="-2">
+            <androidx.recyclerview.widget.RecyclerView android:scrollbarStyle="33554432" android:id="@id/md_contentRecyclerView" android:paddingTop="@dimen/md_content_padding_top" android:paddingBottom="@dimen/md_content_padding_bottom" android:scrollbars="0x200" android:clipToPadding="false" android:layout_width="-1" android:layout_height="-2"/>
+        </FrameLayout>
+        <CheckBox android:id="@id/md_promptCheckbox" android:focusable="true" android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="@dimen/md_notitle_vertical_padding" android:layout_marginRight="@dimen/md_notitle_vertical_padding"/>
+    </LinearLayout>
+    <include layout="@layout/md_stub_actionbuttons"/>
+</com.afollestad.materialdialogs.internal.MDRootLayout>

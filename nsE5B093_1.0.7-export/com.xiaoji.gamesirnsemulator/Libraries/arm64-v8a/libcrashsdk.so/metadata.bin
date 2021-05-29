@@ -1,0 +1,15 @@
+ELF metadata
+
+- Comment:
+
+  + GCC: (GNU) 4.9 20140827 (prerelease)
+
+- Notes:
+
+  + Owner: GNU
+    - type: NT_GNU_BUILD_ID (unique build ID)
+    - description: Build ID[sha1]=287D3CA4C90B55609A6D677F6BBFF43E07929FBF
+
+  + Owner: GNU
+    - type: NT_GNU_GOLD_VERSION (gold linker version)
+    - description: gold 1.11

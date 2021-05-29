@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="center" android:orientation="vertical" android:tag="layout/activity_splash_0" android:background="@drawable/bitmap_main_bg" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ImageView android:layout_width="250mm" android:layout_height="250mm" android:src="@drawable/ic_splash_icon" android:scaleType="fitXY"/>
+    <TextView android:textSize="42mm" android:textColor="@color/black" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20mm" android:text="EGG NS EMULAOTR"/>
+    <TextView android:textSize="42mm" android:textColor="@color/gray" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5mm" android:text="Egg NS"/>
+</LinearLayout>

@@ -1,0 +1,15 @@
+ELF metadata
+
+- Comment:
+
+  + Android (5220042 based on r346389c) clang version 8.0.7 (https://android.googlesource.com/toolchain/clang b55f2d4ebfd35bf643d27dbca1bb228957008617) (https://android.googlesource.com/toolchain/llvm 3c393fe7a7e13b0fba4ac75a01aa683d7a5b11cd) (based on LLVM 8.0.7svn)
+
+- Notes:
+
+  + Owner: GNU
+    - type: NT_GNU_BUILD_ID (unique build ID)
+    - description: Build ID[sha1]=2379BCA92985E1C4B4076AB79DF68AB086BC689E
+
+  + Owner: Android
+    - type: 1
+    - description: Android API version:21 - NDK version:r20 - NDK build number:5594570

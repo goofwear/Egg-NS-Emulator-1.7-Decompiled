@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:binding="http://schemas.android.com/apk/res-auto" android:orientation="0" android:tag="layout/activity_user_info_0" android:background="@drawable/bg_line1" android:paddingTop="80.0mm" android:layout_width="-1" android:layout_height="-1">
+    <LinearLayout android:gravity="0x1" android:orientation="1" android:background="@drawable/bg_line1" android:paddingBottom="@dimen/left_panel_padding" android:layout_width="@dimen/left_panel_width" android:layout_height="-1">
+        <LinearLayout android:gravity="0x10" android:orientation="0" android:id="@id/btn_back" android:tag="binding_1" android:background="@color/color_bg_sub" android:padding="30.0mm" android:layout_width="-1" android:layout_height="-2">
+            <ImageView android:id="@id/iv" android:layout_width="20.0mm" android:layout_height="33.0mm" android:src="@drawable/nav_icon_back" android:scaleType="1"/>
+            <TextView android:textSize="36.0mm" android:textColor="@color/black" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="20.0mm" android:text="@string/game_detail_back" android:layout_marginStart="20.0mm"/>
+        </LinearLayout>
+        <ImageView android:id="@id/img_header" android:tag="binding_2" android:layout_width="@dimen/img_wight1" android:layout_height="@dimen/img_wight1" android:layout_marginTop="150.0mm" android:src="@drawable/image_user_nomal" android:scaleType="1" android:layout_centerHorizontal="true"/>
+        <TextView android:textSize="@dimen/font_middle" android:textColor="@color/color_theme_font" android:gravity="0x11" android:layout_gravity="0x10" android:tag="binding_3" android:padding="30.0mm" android:layout_width="-1" android:layout_height="-2"/>
+    </LinearLayout>
+    <LinearLayout android:gravity="0x11" android:background="@drawable/bg_line" android:padding="40.0mm" android:layout_width="-1" android:layout_height="-1">
+        <LinearLayout android:orientation="1" android:layout_width="1200.0mm" android:layout_height="-2">
+            <TextView android:textSize="@dimen/font_middle" android:textColor="@color/color_font_2" android:layout_width="-2" android:layout_height="-2" android:text="@string/user_nickname"/>
+            <FrameLayout android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="10.0mm">
+                <TextView android:textSize="@dimen/font_middle" android:textColor="@color/color_theme_font" android:gravity="0x800003" android:layout_gravity="0x10" android:tag="binding_4" android:paddingTop="10.0mm" android:paddingBottom="10.0mm" android:layout_width="-1" android:layout_height="-2" android:textAlignment="5"/>
+                <TextView android:textSize="@dimen/font_middle" android:textColor="@color/color_theme_font" android:layout_gravity="0x800015" android:tag="binding_5" android:background="@drawable/bg_circular_grey_border" android:paddingLeft="60.0mm" android:paddingTop="10.0mm" android:paddingRight="60.0mm" android:paddingBottom="10.0mm" android:layout_width="-2" android:layout_height="-2" android:text="@string/user_modify" android:paddingStart="60.0mm" android:paddingEnd="60.0mm" android:layout_marginEnd="40.0mm"/>
+            </FrameLayout>
+            <TextView android:textSize="@dimen/font_middle" android:textColor="@color/color_font_2" android:tag="binding_6" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="40.0mm"/>
+            <FrameLayout android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="10.0mm">
+                <TextView android:textSize="@dimen/font_middle" android:textColor="@color/color_theme_font" android:gravity="0x800003" android:layout_gravity="0x10" android:tag="binding_7" android:paddingTop="10.0mm" android:paddingBottom="10.0mm" android:layout_width="-1" android:layout_height="-2" android:textAlignment="5"/>
+                <TextView android:textSize="@dimen/font_middle" android:textColor="@color/color_theme_font" android:layout_gravity="0x800015" android:tag="binding_8" android:background="@drawable/bg_circular_grey_border" android:paddingLeft="60.0mm" android:paddingTop="10.0mm" android:paddingRight="60.0mm" android:paddingBottom="10.0mm" android:layout_width="-2" android:layout_height="-2" android:text="@string/user_modify" android:paddingStart="60.0mm" android:paddingEnd="60.0mm" android:layout_marginEnd="40.0mm"/>
+            </FrameLayout>
+            <TextView android:textSize="@dimen/font_middle" android:textColor="@color/color_font_2" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="40.0mm" android:text="@string/user_contact"/>
+            <FrameLayout android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="10.0mm">
+                <TextView android:textSize="@dimen/font_middle" android:textColor="@color/color_theme_font" android:gravity="0x800003" android:layout_gravity="0x10" android:tag="binding_9" android:paddingTop="10.0mm" android:paddingBottom="10.0mm" android:layout_width="-1" android:layout_height="-2" android:textAlignment="5"/>
+                <TextView android:textSize="@dimen/font_middle" android:textColor="@color/color_theme_font" android:layout_gravity="0x800015" android:tag="binding_10" android:background="@drawable/bg_circular_grey_border" android:paddingLeft="60.0mm" android:paddingTop="10.0mm" android:paddingRight="60.0mm" android:paddingBottom="10.0mm" android:layout_width="-2" android:layout_height="-2" android:paddingStart="60.0mm" android:paddingEnd="60.0mm" android:layout_marginEnd="40.0mm"/>
+            </FrameLayout>
+            <TextView android:textSize="@dimen/font_middle" android:textColor="@color/color_font_2" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="40.0mm" android:text="@string/user_login_password"/>
+            <FrameLayout android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="10.0mm">
+                <TextView android:enabled="false" android:textSize="@dimen/font_big" android:textColor="@color/color_theme_font" android:gravity="0x800003" android:layout_gravity="0x10" android:background="@ResourceId_0x00000000" android:paddingTop="10.0mm" android:paddingBottom="10.0mm" android:layout_width="-1" android:layout_height="-2" android:text="000000" android:inputType="0x81" android:textAlignment="5"/>
+                <TextView android:textSize="@dimen/font_middle" android:textColor="@color/color_theme_font" android:layout_gravity="0x800015" android:tag="binding_11" android:background="@drawable/bg_circular_grey_border" android:paddingLeft="60.0mm" android:paddingTop="10.0mm" android:paddingRight="60.0mm" android:paddingBottom="10.0mm" android:layout_width="-2" android:layout_height="-2" android:text="@string/user_modify" android:paddingStart="60.0mm" android:paddingEnd="60.0mm" android:layout_marginEnd="40.0mm"/>
+            </FrameLayout>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

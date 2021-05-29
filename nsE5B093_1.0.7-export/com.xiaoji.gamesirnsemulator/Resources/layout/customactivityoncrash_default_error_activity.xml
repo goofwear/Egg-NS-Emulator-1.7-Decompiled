@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="0x11" android:layout_width="-1" android:layout_height="-1">
+    <ScrollView android:layout_width="-1" android:layout_height="-2">
+        <LinearLayout android:gravity="0x11" android:orientation="1" android:paddingLeft="@dimen/customactivityoncrash_activity_horizontal_margin" android:paddingTop="@dimen/customactivityoncrash_activity_vertical_margin" android:paddingRight="@dimen/customactivityoncrash_activity_horizontal_margin" android:paddingBottom="@dimen/customactivityoncrash_activity_vertical_margin" android:layout_width="-1" android:layout_height="-2">
+            <ImageView android:id="@id/customactivityoncrash_error_activity_image" android:layout_width="-2" android:layout_height="-2" android:src="@drawable/customactivityoncrash_error_image" android:contentDescription="@ResourceId_0x00000000"/>
+            <TextView android:textSize="18.0sp" android:textStyle="0x1" android:gravity="0x11" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="@dimen/customactivityoncrash_activity_vertical_margin" android:text="@string/customactivityoncrash_error_activity_error_occurred_explanation"/>
+            <Button android:id="@id/customactivityoncrash_error_activity_restart_button" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="@dimen/customactivityoncrash_activity_vertical_margin" android:text="@string/customactivityoncrash_error_activity_close_app"/>
+            <Button android:textColor="?com.xiaoji.gamesirnsemulator:attr/colorPrimary" android:id="@id/customactivityoncrash_error_activity_more_info_button" android:layout_width="-2" android:layout_height="-2" android:text="@string/customactivityoncrash_error_activity_error_details" style="?com.xiaoji.gamesirnsemulator:attr/borderlessButtonStyle"/>
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

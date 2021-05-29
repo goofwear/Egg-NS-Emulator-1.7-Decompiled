@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="1" android:background="@drawable/smssdk_authorize_dialog_bg" android:layout_width="-1" android:layout_height="-2">
+    <TextView android:textSize="@dimen/smssdk_authorize_text_size_l" android:textStyle="0x1" android:textColor="@color/smssdk_common_black" android:layout_gravity="0x1" android:id="@id/smssdk_authorize_dialog_title_tv" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="10.0dp" android:text="@string/smssdk_authorize_dialog_title"/>
+    <cn.smssdk.ui.companent.CircleImageView android:layout_gravity="0x1" android:id="@id/smssdk_authorize_dialog_logo_iv" android:layout_width="45.0dp" android:layout_height="45.0dp" android:layout_marginTop="10.0dp" android:scaleType="7" android:contentDescription="logo"/>
+    <View android:background="#f5f5f5" android:layout_width="-1" android:layout_height="1.0dp" android:layout_marginTop="10.0dp"/>
+    <TextView android:textSize="@dimen/smssdk_authorize_text_size_s" android:textColor="@color/smssdk_common_text_gray" android:id="@id/smssdk_authorize_dialog_msg" android:paddingLeft="15.0dp" android:paddingTop="20.0dp" android:paddingRight="15.0dp" android:paddingBottom="20.0dp" android:layout_width="-1" android:layout_height="-2" android:text="@string/smssdk_authorize_msg_sms"/>
+    <View android:background="#f5f5f5" android:layout_width="-1" android:layout_height="1.0dp"/>
+    <LinearLayout android:gravity="0x10" android:layout_width="-1" android:layout_height="45.0dp">
+        <TextView android:textSize="18.0dp" android:textColor="@color/smssdk_common_black" android:gravity="0x11" android:id="@id/smssdk_authorize_dialog_reject_tv" android:background="@drawable/smssdk_authorize_bottom_left_round_btn" android:layout_width="0.0dp" android:layout_height="-1" android:text="@string/smssdk_authorize_dialog_reject" android:layout_weight="1.0"/>
+        <View android:background="@color/smssdk_common_line_gray" android:layout_width="1.0dp" android:layout_height="-1"/>
+        <TextView android:textSize="18.0dp" android:textColor="@color/smssdk_common_white" android:gravity="0x11" android:id="@id/smssdk_authorize_dialog_accept_tv" android:background="@drawable/smssdk_authorize_bottom_right_round_btn" android:layout_width="0.0dp" android:layout_height="-1" android:text="@string/smssdk_authorize_dialog_accept" android:layout_weight="1.0"/>
+    </LinearLayout>
+</LinearLayout>

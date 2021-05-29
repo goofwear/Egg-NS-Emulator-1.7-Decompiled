@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<resources>
+    <item type="drawable" name="notification_template_icon_bg">#3333b5e5</item>
+    <item type="drawable" name="notification_template_icon_low_bg">#0cffffff</item>
+    <item type="drawable" name="smssdk_dialog_btn_nor">#00000000</item>
+    <item type="drawable" name="smssdk_dialog_btn_pre">#ff282a2b</item>
+</resources>

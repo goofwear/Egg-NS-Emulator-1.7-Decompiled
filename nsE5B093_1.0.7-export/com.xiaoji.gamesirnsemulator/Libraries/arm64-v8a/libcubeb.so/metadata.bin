@@ -1,0 +1,16 @@
+ELF metadata
+
+- Comment:
+
+  + Android (6454773 based on r365631c2) clang version 9.0.8 (https://android.googlesource.com/toolchain/llvm-project 98c855489587874b2a325e7a516b99d838599c6f) (based on LLVM 9.0.8svn)
+  + GCC: (GNU) 4.9.x 20150123 (prerelease)
+
+- Notes:
+
+  + Owner: GNU
+    - type: NT_GNU_BUILD_ID (unique build ID)
+    - description: Build ID[sha1]=30B5B1BA8E1A31EA8A483E7C40F497FD10112617
+
+  + Owner: Android
+    - type: 1
+    - description: Android API version:26 - NDK version:r21d - NDK build number:6528147

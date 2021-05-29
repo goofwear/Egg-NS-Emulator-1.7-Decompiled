@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="1" android:layout_width="-1" android:layout_height="-2">
+    <LinearLayout android:orientation="1" android:background="@drawable/shape_select_picture_dialog_bg" android:layout_width="-1" android:layout_height="-2">
+        <Button android:textSize="20.0sp" android:textColor="@color/color_333333" android:gravity="0x11" android:id="@id/btn_camera" android:background="@drawable/selector_select_picture_top_corners" android:padding="30.0mm" android:layout_width="-1" android:layout_height="-2" android:text="@string/select_picture_photograph"/>
+        <include layout="@layout/include_line_horizontal_05dp_f8f8f8"/>
+        <Button android:textSize="20.0sp" android:textColor="@color/color_333333" android:gravity="0x11" android:id="@id/btn_album" android:background="@drawable/selector_select_picture_bottom_corners" android:padding="30.0mm" android:layout_width="-1" android:layout_height="-2" android:text="@string/select_picture_select_from_album"/>
+    </LinearLayout>
+    <LinearLayout android:orientation="1" android:background="@drawable/shape_select_picture_dialog_bg" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="@dimen/dp_7" android:layout_marginBottom="@dimen/dp_5">
+        <Button android:textSize="20.0sp" android:textColor="@color/color_333333" android:gravity="0x11" android:id="@id/btn_cancel" android:background="@drawable/selector_select_picture_all_corners" android:padding="30.0mm" android:layout_width="-1" android:layout_height="-2" android:text="@string/select_picture_cancel"/>
+    </LinearLayout>
+</LinearLayout>

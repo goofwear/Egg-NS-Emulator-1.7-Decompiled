@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="-1" android:layout_height="@dimen/smssdk_titlebar_height">
+    <TextView android:textSize="14.0sp" android:textColor="@android:color/black" android:gravity="0x11" android:id="@id/tv_left" android:background="@ResourceId_0x00000000" android:paddingLeft="10.0dp" android:paddingRight="10.0dp" android:visibility="0" android:layout_width="-2" android:layout_height="-1" android:text="取消" android:singleLine="true" android:drawableLeft="@drawable/smssdk_back_arrow_bitmap" android:layout_alignParentLeft="true" android:layout_alignParentTop="true"/>
+    <TextView android:textSize="17.0sp" android:textColor="@android:color/black" android:gravity="0x11" android:id="@id/tv_title" android:layout_width="-1" android:layout_height="-1" android:text="选择头像" android:singleLine="true"/>
+    <TextView android:textSize="14.0sp" android:textColor="#00d69c" android:gravity="0x11" android:id="@id/tv_right" android:paddingLeft="10.0dp" android:paddingRight="10.0dp" android:layout_width="-2" android:layout_height="-1" android:text="完成" android:singleLine="true" android:layout_alignParentTop="true" android:layout_alignParentRight="true"/>
+</RelativeLayout>

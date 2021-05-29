@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:binding="http://schemas.android.com/apk/res-auto" android:orientation="0" android:tag="layout/activity_backups_0" android:background="@drawable/bg_line1" android:paddingTop="80.0mm" android:layout_width="-1" android:layout_height="-1">
+    <LinearLayout android:gravity="0x1" android:orientation="1" android:background="@drawable/bg_line1" android:paddingBottom="@dimen/left_panel_padding" android:layout_width="@dimen/left_panel_width" android:layout_height="-1">
+        <LinearLayout android:gravity="0x10" android:orientation="0" android:id="@id/btn_back" android:tag="binding_1" android:background="@color/color_bg_sub" android:padding="30.0mm" android:layout_width="-1" android:layout_height="-2">
+            <ImageView android:id="@id/iv" android:layout_width="20.0mm" android:layout_height="33.0mm" android:src="@drawable/nav_icon_back" android:scaleType="1"/>
+            <TextView android:textSize="36.0mm" android:textColor="@color/black" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="20.0mm" android:text="@string/game_detail_back" android:layout_marginStart="20.0mm"/>
+        </LinearLayout>
+        <TextView android:textSize="@dimen/font_big" android:textColor="@color/item_color_selector" android:tag="binding_2" android:background="@drawable/item_selector" android:paddingBottom="20.0mm" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="100.0mm" android:text="@string/user_have_no_backups" android:layout_below="@id/btn_back" android:paddingStart="20.0mm" android:paddingEnd="20.0mm"/>
+        <TextView android:textSize="@dimen/font_big" android:textColor="@color/item_color_selector" android:tag="binding_3" android:background="@drawable/item_selector" android:paddingBottom="20.0mm" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="100.0mm" android:text="@string/user_have_backups" android:layout_below="@id/btn_back" android:paddingStart="20.0mm" android:paddingEnd="20.0mm"/>
+    </LinearLayout>
+    <RelativeLayout android:tag="binding_4" android:background="@drawable/bg_line" android:layout_width="-1" android:layout_height="-1">
+        <LinearLayout android:orientation="1" android:layout_width="-2" android:layout_height="-2" android:layout_centerInParent="true">
+            <ImageView android:background="@drawable/nogame" android:layout_width="400.0mm" android:layout_height="250.0mm"/>
+            <TextView android:textSize="@dimen/font_big" android:textColor="@color/color_theme_font" android:layout_gravity="0x1" android:tag="binding_5" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="40.0mm"/>
+        </LinearLayout>
+    </RelativeLayout>
+    <RelativeLayout android:tag="binding_6" android:background="@drawable/bg_line" android:padding="80.0mm" android:layout_width="-1" android:layout_height="-1">
+        <TextView android:textSize="@dimen/font_middle" android:textColor="@color/color_font" android:id="@id/tv_title" android:layout_width="-1" android:layout_height="-2" android:text="@string/user_choose_backups"/>
+        <LinearLayout android:gravity="0x11" android:id="@id/ll_backup" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="20.0mm" android:layout_alignParentBottom="true">
+            <TextView android:textSize="@dimen/font_middle" android:textColor="@color/color_font_red" android:gravity="0x11" android:tag="binding_7" android:background="@drawable/bg_circular_red_border" android:padding="25.0mm" android:layout_width="-2" android:layout_height="-2" android:minWidth="320.0mm" android:text="@string/user_manage_backups"/>
+            <LinearLayout android:tag="binding_8" android:layout_width="-2" android:layout_height="-2">
+                <TextView android:textSize="@dimen/font_middle" android:textColor="@color/white" android:gravity="0x11" android:tag="binding_9" android:background="@drawable/bg_circular_red" android:padding="25.0mm" android:layout_width="320.0mm" android:layout_height="-2" android:text="@string/user_delete"/>
+                <TextView android:textSize="@dimen/font_middle" android:textColor="@color/white" android:gravity="0x11" android:tag="binding_10" android:background="@drawable/bg_circular_red" android:padding="25.0mm" android:layout_width="320.0mm" android:layout_height="-2" android:layout_marginStart="50.0mm"/>
+                <TextView android:textSize="@dimen/font_middle" android:textColor="@color/white" android:gravity="0x11" android:tag="binding_11" android:background="@drawable/bg_circular_red" android:padding="25.0mm" android:layout_width="320.0mm" android:layout_height="-2" android:layout_marginStart="50.0mm"/>
+                <TextView android:textSize="@dimen/font_middle" android:textColor="@color/white" android:gravity="0x11" android:tag="binding_12" android:background="@drawable/bg_circular_red" android:padding="25.0mm" android:layout_width="320.0mm" android:layout_height="-2" android:text="@string/game_detail_back" android:layout_marginStart="50.0mm"/>
+            </LinearLayout>
+        </LinearLayout>
+        <androidx.recyclerview.widget.RecyclerView android:id="@id/recycler_view" android:tag="binding_13" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="40.0mm" android:layout_above="@id/ll_backup" android:layout_below="@id/tv_title" android:layout_centerVertical="true"/>
+    </RelativeLayout>
+</LinearLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:id="@id/layout_constraint" android:background="#000000" android:layout_width="-1" android:layout_height="-1" android:keepScreenOn="true">
+    <io.switchdroid.NSSurfaceView android:id="@id/surface_emulation" android:layout_width="0.0dp" android:layout_height="0.0dp" app:layout_constraintBottom_toBottomOf="0" app:layout_constraintEnd_toEndOf="0" app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toTopOf="0"/>
+    <RelativeLayout android:id="@id/layout_loading_screen" android:layout_width="-1" android:layout_height="-1" app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toTopOf="0">
+        <ImageView android:id="@id/image_banner" android:layout_width="100.0dp" android:layout_height="50.0dp" android:scaleType="3" android:adjustViewBounds="true" android:layout_alignParentTop="true" android:layout_alignParentStart="true"/>
+        <pl.droidsonroids.gif.GifImageView android:id="@id/image_logo" android:layout_width="150.0dp" android:layout_height="100.0dp" android:scaleType="3" android:adjustViewBounds="true" android:layout_alignParentBottom="true" android:layout_alignParentEnd="true"/>
+    </RelativeLayout>
+    <TextView android:textSize="12.0sp" android:textStyle="0x1" android:textColor="#87d618" android:id="@id/tv_profile1" android:paddingLeft="6.0dp" android:paddingTop="6.0dp" android:layout_width="-2" android:layout_height="-2" android:paddingStart="6.0dp" app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toTopOf="0"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

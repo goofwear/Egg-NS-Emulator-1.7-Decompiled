@@ -1,0 +1,1304 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<resources>
+    <style name="ActionSheetDialogAnimation">
+        <enum name="android:attr/windowEnterAnimation" value="@com.xiaoji.gamesirnsemulator:anim/actionsheet_dialog_in" />
+        <enum name="android:attr/windowExitAnimation" value="@com.xiaoji.gamesirnsemulator:anim/actionsheet_dialog_out" />
+    </style>
+    <style name="ActionSheetDialogStyle">
+        <enum name="android:attr/windowBackground" value="@android:color/transparent" />
+        <enum name="android:attr/windowFrame" value="@ResourceId_0x00000000" />
+        <enum name="android:attr/windowNoTitle" value="true" />
+        <enum name="android:attr/windowIsFloating" value="true" />
+        <enum name="android:attr/windowIsTranslucent" value="true" />
+        <enum name="android:attr/windowContentOverlay" value="@ResourceId_0x00000000" />
+        <enum name="android:attr/windowAnimationStyle" value="@com.xiaoji.gamesirnsemulator:style/ActionSheetDialogAnimation" />
+        <enum name="android:attr/backgroundDimEnabled" value="true" />
+    </style>
+    <style name="AlertDialog.AppCompat"></style>
+    <style name="AlertDialog.AppCompat.Light"></style>
+    <style name="AlertDialog.SkinCompat">
+        <enum name="android:attr/layout" value="@com.xiaoji.gamesirnsemulator:layout/skin_alert_dialog" />
+        <enum name="com.xiaoji.gamesirnsemulator:attr/listItemLayout" value="@com.xiaoji.gamesirnsemulator:layout/skin_select_dialog_item" />
+        <enum name="com.xiaoji.gamesirnsemulator:attr/listLayout" value="@com.xiaoji.gamesirnsemulator:layout/skin_select_dialog" />
+        <enum name="com.xiaoji.gamesirnsemulator:attr/multiChoiceItemLayout" value="@com.xiaoji.gamesirnsemulator:layout/skin_select_dialog_multichoice" />
+        <enum name="com.xiaoji.gamesirnsemulator:attr/singleChoiceItemLayout" value="@com.xiaoji.gamesirnsemulator:layout/skin_select_dialog_singlechoice" />
+    </style>
+    <style name="Animation.AppCompat.Dialog"></style>
+    <style name="Animation.AppCompat.DropDownUp"></style>
+    <style name="Animation.AppCompat.Tooltip"></style>
+    <style name="AppTheme">
+        <enum name="com.xiaoji.gamesirnsemulator:attr/colorAccent" value="@com.xiaoji.gamesirnsemulator:color/colorAccent" />
+        <enum name="com.xiaoji.gamesirnsemulator:attr/colorPrimary" value="@com.xiaoji.gamesirnsemulator:color/colorPrimary" />
+        <enum name="com.xiaoji.gamesirnsemulator:attr/colorPrimaryDark" value="@com.xiaoji.gamesirnsemulator:color/colorPrimaryDark" />
+    </style>
+    <style name="Base.AlertDialog.AppCompat">
+        <enum name="android:attr/layout" value="@com.xiaoji.gamesirnsemulator:layout/abc_alert_dialog_material" />
+        <enum name="com.xiaoji.gamesirnsemulator:attr/buttonIconDimen" value="@com.xiaoji.gamesirnsemulator:dimen/abc_alert_dialog_button_dimen" />
+        <enum name="com.xiaoji.gamesirnsemulator:attr/listItemLayout" value="@com.xiaoji.gamesirnsemulator:layout/select_dialog_item_material" />
+        <enum name="com.xiaoji.gamesirnsemulator:attr/listLayout" value="@com.xiaoji.gamesirnsemulator:layout/abc_select_dialog_material" />
+        <enum name="com.xiaoji.gamesirnsemulator:attr/multiChoiceItemLayout" value="@com.xiaoji.gamesirnsemulator:layout/select_dialog_multichoice_material" />
+        <enum name="com.xiaoji.gamesirnsemulator:attr/singleChoiceItemLayout" value="@com.xiaoji.gamesirnsemulator:layout/select_dialog_singlechoice_material" />
+    </style>
+    <style name="Base.AlertDialog.AppCompat.Light"></style>
+    <style name="Base.Animation.AppCompat.Dialog">
+        <enum name="android:attr/windowEnterAnimation" value="@com.xiaoji.gamesirnsemulator:anim/abc_popup_enter" />
+        <enum name="android:attr/windowExitAnimation" value="@com.xiaoji.gamesirnsemulator:anim/abc_popup_exit" />
+    </style>
+    <style name="Base.Animation.AppCompat.DropDownUp">
+        <enum name="android:attr/windowEnterAnimation" value="@com.xiaoji.gamesirnsemulator:anim/abc_grow_fade_in_from_bottom" />
+        <enum name="android:attr/windowExitAnimation" value="@com.xiaoji.gamesirnsemulator:anim/abc_shrink_fade_out_from_bottom" />
+    </style>
+    <style name="Base.Animation.AppCompat.Tooltip">
+        <enum name="android:attr/windowEnterAnimation" value="@com.xiaoji.gamesirnsemulator:anim/abc_tooltip_enter" />
+        <enum name="android:attr/windowExitAnimation" value="@com.xiaoji.gamesirnsemulator:anim/abc_tooltip_exit" />
+    </style>
+    <style name="Base.DialogWindowTitle.AppCompat">
+        <enum name="android:attr/textAppearance" value="@com.xiaoji.gamesirnsemulator:style/TextAppearance.AppCompat.Title" />
+        <enum name="android:attr/maxLines" value="1" />
+        <enum name="android:attr/scrollHorizontally" value="true" />
+    </style>
+    <style name="Base.DialogWindowTitleBackground.AppCompat">
+        <enum name="android:attr/background" value="@ResourceId_0x00000000" />
+        <enum name="android:attr/paddingLeft" value="?com.xiaoji.gamesirnsemulator:attr/dialogPreferredPadding" />
+        <enum name="android:attr/paddingTop" value="@com.xiaoji.gamesirnsemulator:dimen/abc_dialog_padding_top_material" />
+        <enum name="android:attr/paddingRight" value="?com.xiaoji.gamesirnsemulator:attr/dialogPreferredPadding" />
+    </style>
+    <style name="Base.TextAppearance.AppCompat"></style>
+    <style name="Base.TextAppearance.AppCompat.Body1"></style>
+    <style name="Base.TextAppearance.AppCompat.Body2"></style>
+    <style name="Base.TextAppearance.AppCompat.Button"></style>
+    <style name="Base.TextAppearance.AppCompat.Caption"></style>
+    <style name="Base.TextAppearance.AppCompat.Display1"></style>
+    <style name="Base.TextAppearance.AppCompat.Display2"></style>
+    <style name="Base.TextAppearance.AppCompat.Display3"></style>
+    <style name="Base.TextAppearance.AppCompat.Display4"></style>
+    <style name="Base.TextAppearance.AppCompat.Headline"></style>
+    <style name="Base.TextAppearance.AppCompat.Inverse"></style>
+    <style name="Base.TextAppearance.AppCompat.Large"></style>
+    <style name="Base.TextAppearance.AppCompat.Large.Inverse"></style>
+    <style name="Base.TextAppearance.AppCompat.Light.Widget.PopupMenu.Large"></style>
+    <style name="Base.TextAppearance.AppCompat.Light.Widget.PopupMenu.Small"></style>
+    <style name="Base.TextAppearance.AppCompat.Medium"></style>
+    <style name="Base.TextAppearance.AppCompat.Medium.Inverse"></style>
+    <style name="Base.TextAppearance.AppCompat.Menu"></style>
+    <style name="Base.TextAppearance.AppCompat.SearchResult">
+        <enum name="android:attr/textStyle" value="0x0" />
+        <enum name="android:attr/textColor" value="?android:attr/textColorPrimary" />
+        <enum name="android:attr/textColorHint" value="?android:attr/textColorHint" />
+    </style>
+    <style name="Base.TextAppearance.AppCompat.SearchResult.Subtitle"></style>
+    <style name="Base.TextAppearance.AppCompat.SearchResult.Title"></style>
+    <style name="Base.TextAppearance.AppCompat.Small"></style>
+    <style name="Base.TextAppearance.AppCompat.Small.Inverse"></style>
+    <style name="Base.TextAppearance.AppCompat.Subhead"></style>
+    <style name="Base.TextAppearance.AppCompat.Subhead.Inverse">
+        <enum name="android:attr/textColor" value="?android:attr/textColorPrimaryInverse" />
+        <enum name="android:attr/textColorHighlight" value="?android:attr/textColorHighlightInverse" />
+        <enum name="android:attr/textColorHint" value="?android:attr/textColorHintInverse" />
+        <enum name="android:attr/textColorLink" value="?android:attr/textColorLinkInverse" />
+    </style>
+    <style name="Base.TextAppearance.AppCompat.Title"></style>
+    <style name="Base.TextAppearance.AppCompat.Title.Inverse">
+        <enum name="android:attr/textColor" value="?android:attr/textColorPrimaryInverse" />
+        <enum name="android:attr/textColorHighlight" value="?android:attr/textColorHighlightInverse" />
+        <enum name="android:attr/textColorHint" value="?android:attr/textColorHintInverse" />
+        <enum name="android:attr/textColorLink" value="?android:attr/textColorLinkInverse" />
+    </style>
+    <style name="Base.TextAppearance.AppCompat.Tooltip">
+        <enum name="android:attr/textSize" value="14.0sp" />
+    </style>
+    <style name="Base.TextAppearance.AppCompat.Widget.ActionBar.Menu"></style>
+    <style name="Base.TextAppearance.AppCompat.Widget.ActionBar.Subtitle"></style>
+    <style name="Base.TextAppearance.AppCompat.Widget.ActionBar.Subtitle.Inverse"></style>
+    <style name="Base.TextAppearance.AppCompat.Widget.ActionBar.Title"></style>
+    <style name="Base.TextAppearance.AppCompat.Widget.ActionBar.Title.Inverse"></style>
+    <style name="Base.TextAppearance.AppCompat.Widget.ActionMode.Subtitle"></style>
+    <style name="Base.TextAppearance.AppCompat.Widget.ActionMode.Title"></style>
+    <style name="Base.TextAppearance.AppCompat.Widget.Button"></style>
+    <style name="Base.TextAppearance.AppCompat.Widget.Button.Borderless.Colored"></style>
+    <style name="Base.TextAppearance.AppCompat.Widget.Button.Colored"></style>
+    <style name="Base.TextAppearance.AppCompat.Widget.Button.Inverse"></style>
+    <style name="Base.TextAppearance.AppCompat.Widget.DropDownItem">
+        <enum name="android:attr/textColor" value="?android:attr/textColorPrimaryDisableOnly" />
+    </style>
+    <style name="Base.TextAppearance.AppCompat.Widget.PopupMenu.Header">
+        <enum name="android:attr/textSize" value="@com.xiaoji.gamesirnsemulator:dimen/abc_text_size_menu_header_material" />
+        <enum name="android:attr/textColor" value="?android:attr/textColorSecondary" />
+        <enum name="android:attr/fontFamily" value="sans-serif-medium" />
+    </style>
+    <style name="Base.TextAppearance.AppCompat.Widget.PopupMenu.Large"></style>
+    <style name="Base.TextAppearance.AppCompat.Widget.PopupMenu.Small"></style>
+    <style name="Base.TextAppearance.AppCompat.Widget.Switch"></style>
+    <style name="Base.TextAppearance.AppCompat.Widget.TextView.SpinnerItem"></style>
+    <style name="Base.TextAppearance.Widget.AppCompat.ExpandedMenu.Item">
+        <enum name="android:attr/textColor" value="?android:attr/textColorPrimaryDisableOnly" />
+    </style>
+    <style name="Base.TextAppearance.Widget.AppCompat.Toolbar.Subtitle"></style>
+    <style name="Base.TextAppearance.Widget.AppCompat.Toolbar.Title"></style>
+    <style name="Base.Theme.AppCompat"></style>
+    <style name="Base.Theme.AppCompat.CompactMenu">
+        <enum name="android:attr/listViewStyle" value="@com.xiaoji.gamesirnsemulator:style/Widget.AppCompat.ListView.Menu" />
+        <enum name="android:attr/windowAnimationStyle" value="@com.xiaoji.gamesirnsemulator:style/Animation.AppCompat.DropDownUp" />
+        <enum name="android:attr/itemTextAppearance" value="?android:attr/textAppearanceMedium" />
+    </style>
+    <style name="Base.Theme.AppCompat.Dialog"></style>
+    <style name="Base.Theme.AppCompat.Dialog.Alert">
+        <enum name="android:attr/windowMinWidthMajor" value="@com.xiaoji.gamesirnsemulator:dimen/abc_dialog_min_width_major" />
+        <enum name="android:attr/windowMinWidthMinor" value="@com.xiaoji.gamesirnsemulator:dimen/abc_dialog_min_width_minor" />
+    </style>
+    <style name="Base.Theme.AppCompat.Dialog.FixedSize">
+        <enum name="com.xiaoji.gamesirnsemulator:attr/windowFixedHeightMajor" value="@com.xiaoji.gamesirnsemulator:dimen/abc_dialog_fixed_height_major" />
+        <enum name="com.xiaoji.gamesirnsemulator:attr/windowFixedHeightMinor" value="@com.xiaoji.gamesirnsemulator:dimen/abc_dialog_fixed_height_minor" />
+        <enum name="com.xiaoji.gamesirnsemulator:attr/windowFixedWidthMajor" value="@com.xiaoji.gamesirnsemulator:dimen/abc_dialog_fixed_width_major" />
+        <enum name="com.xiaoji.gamesirnsemulator:attr/windowFixedWidthMinor" value="@com.xiaoji.gamesirnsemulator:dimen/abc_dialog_fixed_width_minor" />
+    </style>
+    <style name="Base.Theme.AppCompat.Dialog.MinWidth">
+        <enum name="android:attr/windowMinWidthMajor" value="@com.xiaoji.gamesirnsemulator:dimen/abc_dialog_min_width_major" />
+        <enum name="android:attr/windowMinWidthMinor" value="@com.xiaoji.gamesirnsemulator:dimen/abc_dialog_min_width_minor" />
+    </style>
+    <style name="Base.Theme.AppCompat.DialogWhenLarge"></style>
+    <style name="Base.Theme.AppCompat.Light"></style>
+    <style name="Base.Theme.AppCompat.Light.DarkActionBar">
+        <enum name="com.xiaoji.gamesirnsemulator:attr/actionBarPopupTheme" value="@com.xiaoji.gamesirnsemulator:style/ThemeOverlay.AppCompat.Light" />
+        <enum name="com.xiaoji.gamesirnsemulator:attr/actionBarTheme" value="@com.xiaoji.gamesirnsemulator:style/ThemeOverlay.AppCompat.Dark.ActionBar" />
+        <enum name="com.xiaoji.gamesirnsemulator:attr/actionBarWidgetTheme" value="@ResourceId_0x00000000" />
+        <enum name="com.xiaoji.gamesirnsemulator:attr/colorPrimary" value="@com.xiaoji.gamesirnsemulator:color/primary_material_dark" />
+        <enum name="com.xiaoji.gamesirnsemulator:attr/colorPrimaryDark" value="@com.xiaoji.gamesirnsemulator:color/primary_dark_material_dark" />
+        <enum name="com.xiaoji.gamesirnsemulator:attr/listChoiceBackgroundIndicator" value="@com.xiaoji.gamesirnsemulator:drawable/abc_list_selector_holo_dark" />
+    </style>
+    <style name="Base.Theme.AppCompat.Light.Dialog"></style>
+    <style name="Base.Theme.AppCompat.Light.Dialog.Alert">
+        <enum name="android:attr/windowMinWidthMajor" value="@com.xiaoji.gamesirnsemulator:dimen/abc_dialog_min_width_major" />
+        <enum name="android:attr/windowMinWidthMinor" value="@com.xiaoji.gamesirnsemulator:dimen/abc_dialog_min_width_minor" />
+    </style>
+    <style name="Base.Theme.AppCompat.Light.Dialog.FixedSize">
+        <enum name="com.xiaoji.gamesirnsemulator:attr/windowFixedHeightMajor" value="@com.xiaoji.gamesirnsemulator:dimen/abc_dialog_fixed_height_major" />
+        <enum name="com.xiaoji.gamesirnsemulator:attr/windowFixedHeightMinor" value="@com.xiaoji.gamesirnsemulator:dimen/abc_dialog_fixed_height_minor" />
+        <enum name="com.xiaoji.gamesirnsemulator:attr/windowFixedWidthMajor" value="@com.xiaoji.gamesirnsemulator:dimen/abc_dialog_fixed_width_major" />
+        <enum name="com.xiaoji.gamesirnsemulator:attr/windowFixedWidthMinor" value="@com.xiaoji.gamesirnsemulator:dimen/abc_dialog_fixed_width_minor" />
+    </style>
+    <style name="Base.Theme.AppCompat.Light.Dialog.MinWidth">
+        <enum name="android:attr/windowMinWidthMajor" value="@com.xiaoji.gamesirnsemulator:dimen/abc_dialog_min_width_major" />
+        <enum name="android:attr/windowMinWidthMinor" value="@com.xiaoji.gamesirnsemulator:dimen/abc_dialog_min_width_minor" />
+    </style>
+    <style name="Base.Theme.AppCompat.Light.DialogWhenLarge"></style>
+    <style name="Base.ThemeOverlay.AppCompat"></style>
+    <style name="Base.ThemeOverlay.AppCompat.ActionBar">
+        <enum name="com.xiaoji.gamesirnsemulator:attr/colorControlNormal" value="?android:attr/textColorPrimary" />
+        <enum name="com.xiaoji.gamesirnsemulator:attr/searchViewStyle" value="@com.xiaoji.gamesirnsemulator:style/Widget.AppCompat.SearchView.ActionBar" />
+    </style>
+    <style name="Base.ThemeOverlay.AppCompat.Dark">
+        <enum name="android:attr/colorForeground" value="@com.xiaoji.gamesirnsemulator:color/foreground_material_dark" />
+        <enum name="android:attr/colorBackground" value="@com.xiaoji.gamesirnsemulator:color/background_material_dark" />
+        <enum name="android:attr/textColorPrimary" value="@com.xiaoji.gamesirnsemulator:color/abc_primary_text_material_dark" />
+        <enum name="android:attr/textColorPrimaryDisableOnly" value="@com.xiaoji.gamesirnsemulator:color/abc_primary_text_disable_only_material_dark" />
+        <enum name="android:attr/textColorSecondary" value="@com.xiaoji.gamesirnsemulator:color/abc_secondary_text_material_dark" />
+        <enum name="android:attr/textColorPrimaryInverse" value="@com.xiaoji.gamesirnsemulator:color/abc_primary_text_material_light" />
+        <enum name="android:attr/textColorSecondaryInverse" value="@com.xiaoji.gamesirnsemulator:color/abc_secondary_text_material_light" />
+        <enum name="android:attr/textColorHintInverse" value="@com.xiaoji.gamesirnsemulator:color/abc_hint_foreground_material_light" />
+        <enum name="android:attr/windowBackground" value="@com.xiaoji.gamesirnsemulator:color/background_material_dark" />
+        <enum name="android:attr/textColorHighlight" value="@com.xiaoji.gamesirnsemulator:color/highlighted_text_material_dark" />
+        <enum name="android:attr/textColorHint" value="@com.xiaoji.gamesirnsemulator:color/abc_hint_foreground_material_dark" />
+        <enum name="android:attr/colorForegroundInverse" value="@com.xiaoji.gamesirnsemulator:color/foreground_material_light" />
+        <enum name="android:attr/textColorTertiary" value="@com.xiaoji.gamesirnsemulator:color/abc_secondary_text_material_dark" />
+        <enum name="android:attr/textColorTertiaryInverse" value="@com.xiaoji.gamesirnsemulator:color/abc_secondary_text_material_light" />
+        <enum name="android:attr/colorBackgroundCacheHint" value="@com.xiaoji.gamesirnsemulator:color/abc_background_cache_hint_selector_material_dark" />
+        <enum name="com.xiaoji.gamesirnsemulator:attr/colorBackgroundFloating" value="@com.xiaoji.gamesirnsemulator:color/background_floating_material_dark" />
+        <enum name="com.xiaoji.gamesirnsemulator:attr/colorButtonNormal" value="@com.xiaoji.gamesirnsemulator:color/button_material_dark" />
+        <enum name="com.xiaoji.gamesirnsemulator:attr/colorControlHighlight" value="@com.xiaoji.gamesirnsemulator:color/ripple_material_dark" />
+        <enum name="com.xiaoji.gamesirnsemulator:attr/colorControlNormal" value="?android:attr/textColorSecondary" />
+        <enum name="com.xiaoji.gamesirnsemulator:attr/colorSwitchThumbNormal" value="@com.xiaoji.gamesirnsemulator:color/switch_thumb_material_dark" />
+        <enum name="com.xiaoji.gamesirnsemulator:attr/isLightTheme" value="false" />
+    </style>
+    <style name="Base.ThemeOverlay.AppCompat.Dark.ActionBar">
+        <enum name="com.xiaoji.gamesirnsemulator:attr/colorControlNormal" value="?android:attr/textColorPrimary" />
+        <enum name="com.xiaoji.gamesirnsemulator:attr/searchViewStyle" value="@com.xiaoji.gamesirnsemulator:style/Widget.AppCompat.SearchView.ActionBar" />
+    </style>
+    <style name="Base.ThemeOverlay.AppCompat.Dialog"></style>
+    <style name="Base.ThemeOverlay.AppCompat.Dialog.Alert">
+        <enum name="android:attr/windowMinWidthMajor" value="@com.xiaoji.gamesirnsemulator:dimen/abc_dialog_min_width_major" />
+        <enum name="android:attr/windowMinWidthMinor" value="@com.xiaoji.gamesirnsemulator:dimen/abc_dialog_min_width_minor" />
+    </style>
+    <style name="Base.ThemeOverlay.AppCompat.Light">
+        <enum name="android:attr/colorForeground" value="@com.xiaoji.gamesirnsemulator:color/foreground_material_light" />
+        <enum name="android:attr/colorBackground" value="@com.xiaoji.gamesirnsemulator:color/background_material_light" />
+        <enum name="android:attr/textColorPrimary" value="@com.xiaoji.gamesirnsemulator:color/abc_primary_text_material_light" />
+        <enum name="android:attr/textColorPrimaryDisableOnly" value="@com.xiaoji.gamesirnsemulator:color/abc_primary_text_disable_only_material_light" />
+        <enum name="android:attr/textColorSecondary" value="@com.xiaoji.gamesirnsemulator:color/abc_secondary_text_material_light" />
+        <enum name="android:attr/textColorPrimaryInverse" value="@com.xiaoji.gamesirnsemulator:color/abc_primary_text_material_dark" />
+        <enum name="android:attr/textColorSecondaryInverse" value="@com.xiaoji.gamesirnsemulator:color/abc_secondary_text_material_dark" />
+        <enum name="android:attr/textColorHintInverse" value="@com.xiaoji.gamesirnsemulator:color/abc_hint_foreground_material_dark" />
+        <enum name="android:attr/windowBackground" value="@com.xiaoji.gamesirnsemulator:color/background_material_light" />
+        <enum name="android:attr/textColorHighlight" value="@com.xiaoji.gamesirnsemulator:color/highlighted_text_material_light" />
+        <enum name="android:attr/textColorHint" value="@com.xiaoji.gamesirnsemulator:color/abc_hint_foreground_material_light" />
+        <enum name="android:attr/colorForegroundInverse" value="@com.xiaoji.gamesirnsemulator:color/foreground_material_dark" />
+        <enum name="android:attr/textColorTertiary" value="@com.xiaoji.gamesirnsemulator:color/abc_secondary_text_material_light" />
+        <enum name="android:attr/textColorTertiaryInverse" value="@com.xiaoji.gamesirnsemulator:color/abc_secondary_text_material_dark" />
+        <enum name="android:attr/textColorPrimaryInverseDisableOnly" value="@com.xiaoji.gamesirnsemulator:color/abc_primary_text_disable_only_material_dark" />
+        <enum name="android:attr/colorBackgroundCacheHint" value="@com.xiaoji.gamesirnsemulator:color/abc_background_cache_hint_selector_material_light" />
+        <enum name="com.xiaoji.gamesirnsemulator:attr/colorBackgroundFloating" value="@com.xiaoji.gamesirnsemulator:color/background_floating_material_light" />
+        <enum name="com.xiaoji.gamesirnsemulator:attr/colorButtonNormal" value="@com.xiaoji.gamesirnsemulator:color/button_material_light" />
+        <enum name="com.xiaoji.gamesirnsemulator:attr/colorControlHighlight" value="@com.xiaoji.gamesirnsemulator:color/ripple_material_light" />
+        <enum name="com.xiaoji.gamesirnsemulator:attr/colorControlNormal" value="?android:attr/textColorSecondary" />
+        <enum name="com.xiaoji.gamesirnsemulator:attr/colorSwitchThumbNormal" value="@com.xiaoji.gamesirnsemulator:color/switch_thumb_material_light" />
+        <enum name="com.xiaoji.gamesirnsemulator:attr/isLightTheme" value="true" />
+    </style>
+    <style name="Base.V21.Theme.AppCompat">
+        <enum name="android:attr/colorControlNormal" value="?com.xiaoji.gamesirnsemulator:attr/colorControlNormal" />
+        <enum name="android:attr/colorControlActivated" value="?com.xiaoji.gamesirnsemulator:attr/colorControlActivated" />
+        <enum name="android:attr/colorButtonNormal" value="?com.xiaoji.gamesirnsemulator:attr/colorButtonNormal" />
+        <enum name="android:attr/colorControlHighlight" value="?com.xiaoji.gamesirnsemulator:attr/colorControlHighlight" />
+        <enum name="android:attr/colorPrimary" value="?com.xiaoji.gamesirnsemulator:attr/colorPrimary" />
+        <enum name="android:attr/colorPrimaryDark" value="?com.xiaoji.gamesirnsemulator:attr/colorPrimaryDark" />
+        <enum name="android:attr/colorAccent" value="?com.xiaoji.gamesirnsemulator:attr/colorAccent" />
+        <enum name="com.xiaoji.gamesirnsemulator:attr/actionBarDivider" value="?android:attr/actionBarDivider" />
+        <enum name="com.xiaoji.gamesirnsemulator:attr/actionBarItemBackground" value="@com.xiaoji.gamesirnsemulator:drawable/abc_action_bar_item_background_material" />
+        <enum name="com.xiaoji.gamesirnsemulator:attr/actionBarSize" value="?android:attr/actionBarSize" />
+        <enum name="com.xiaoji.gamesirnsemulator:attr/actionButtonStyle" value="?android:attr/actionButtonStyle" />
+        <enum name="com.xiaoji.gamesirnsemulator:attr/actionModeBackground" value="?android:attr/actionModeBackground" />
+        <enum name="com.xiaoji.gamesirnsemulator:attr/actionModeCloseDrawable" value="?android:attr/actionModeCloseDrawable" />
+        <enum name="com.xiaoji.gamesirnsemulator:attr/borderlessButtonStyle" value="?android:attr/borderlessButtonStyle" />
+        <enum name="com.xiaoji.gamesirnsemulator:attr/buttonStyle" value="?android:attr/buttonStyle" />
+        <enum name="com.xiaoji.gamesirnsemulator:attr/buttonStyleSmall" value="?android:attr/buttonStyleSmall" />
+        <enum name="com.xiaoji.gamesirnsemulator:attr/checkboxStyle" value="?android:attr/checkboxStyle" />
+        <enum name="com.xiaoji.gamesirnsemulator:attr/checkedTextViewStyle" value="?android:attr/checkedTextViewStyle" />
+        <enum name="com.xiaoji.gamesirnsemulator:attr/dividerHorizontal" value="?android:attr/dividerHorizontal" />
+        <enum name="com.xiaoji.gamesirnsemulator:attr/dividerVertical" value="?android:attr/dividerVertical" />
+        <enum name="com.xiaoji.gamesirnsemulator:attr/editTextBackground" value="@com.xiaoji.gamesirnsemulator:drawable/abc_edit_text_material" />
+        <enum name="com.xiaoji.gamesirnsemulator:attr/editTextColor" value="?android:attr/editTextColor" />
+        <enum name="com.xiaoji.gamesirnsemulator:attr/homeAsUpIndicator" value="?android:attr/homeAsUpIndicator" />
+        <enum name="com.xiaoji.gamesirnsemulator:attr/listChoiceBackgroundIndicator" value="?android:attr/listChoiceBackgroundIndicator" />
+        <enum name="com.xiaoji.gamesirnsemulator:attr/listPreferredItemHeightSmall" value="?android:attr/listPreferredItemHeightSmall" />
+        <enum name="com.xiaoji.gamesirnsemulator:attr/radioButtonStyle" value="?android:attr/radioButtonStyle" />
+        <enum name="com.xiaoji.gamesirnsemulator:attr/ratingBarStyle" value="?android:attr/ratingBarStyle" />
+        <enum name="com.xiaoji.gamesirnsemulator:attr/selectableItemBackground" value="?android:attr/selectableItemBackground" />
+        <enum name="com.xiaoji.gamesirnsemulator:attr/selectableItemBackgroundBorderless" value="?android:attr/selectableItemBackgroundBorderless" />
+        <enum name="com.xiaoji.gamesirnsemulator:attr/spinnerStyle" value="?android:attr/spinnerStyle" />
+        <enum name="com.xiaoji.gamesirnsemulator:attr/textAppearanceLargePopupMenu" value="?android:attr/textAppearanceLargePopupMenu" />
+        <enum name="com.xiaoji.gamesirnsemulator:attr/textAppearanceSmallPopupMenu" value="?android:attr/textAppearanceSmallPopupMenu" />
+    </style>
+    <style name="Base.V21.Theme.AppCompat.Dialog">
+        <enum name="android:attr/windowElevation" value="@com.xiaoji.gamesirnsemulator:dimen/abc_floating_window_z" />
+    </style>
+    <style name="Base.V21.Theme.AppCompat.Light">
+        <enum name="android:attr/colorControlNormal" value="?com.xiaoji.gamesirnsemulator:attr/colorControlNormal" />
+        <enum name="android:attr/colorControlActivated" value="?com.xiaoji.gamesirnsemulator:attr/colorControlActivated" />
+        <enum name="android:attr/colorButtonNormal" value="?com.xiaoji.gamesirnsemulator:attr/colorButtonNormal" />
+        <enum name="android:attr/colorControlHighlight" value="?com.xiaoji.gamesirnsemulator:attr/colorControlHighlight" />
+        <enum name="android:attr/colorPrimary" value="?com.xiaoji.gamesirnsemulator:attr/colorPrimary" />
+        <enum name="android:attr/colorPrimaryDark" value="?com.xiaoji.gamesirnsemulator:attr/colorPrimaryDark" />
+        <enum name="android:attr/colorAccent" value="?com.xiaoji.gamesirnsemulator:attr/colorAccent" />
+        <enum name="com.xiaoji.gamesirnsemulator:attr/actionBarDivider" value="?android:attr/actionBarDivider" />
+        <enum name="com.xiaoji.gamesirnsemulator:attr/actionBarItemBackground" value="@com.xiaoji.gamesirnsemulator:drawable/abc_action_bar_item_background_material" />
+        <enum name="com.xiaoji.gamesirnsemulator:attr/actionBarSize" value="?android:attr/actionBarSize" />
+        <enum name="com.xiaoji.gamesirnsemulator:attr/actionButtonStyle" value="?android:attr/actionButtonStyle" />
+        <enum name="com.xiaoji.gamesirnsemulator:attr/actionModeBackground" value="?android:attr/actionModeBackground" />
+        <enum name="com.xiaoji.gamesirnsemulator:attr/actionModeCloseDrawable" value="?android:attr/actionModeCloseDrawable" />
+        <enum name="com.xiaoji.gamesirnsemulator:attr/borderlessButtonStyle" value="?android:attr/borderlessButtonStyle" />
+        <enum name="com.xiaoji.gamesirnsemulator:attr/buttonStyle" value="?android:attr/buttonStyle" />
+        <enum name="com.xiaoji.gamesirnsemulator:attr/buttonStyleSmall" value="?android:attr/buttonStyleSmall" />
+        <enum name="com.xiaoji.gamesirnsemulator:attr/checkboxStyle" value="?android:attr/checkboxStyle" />
+        <enum name="com.xiaoji.gamesirnsemulator:attr/checkedTextViewStyle" value="?android:attr/checkedTextViewStyle" />
+        <enum name="com.xiaoji.gamesirnsemulator:attr/dividerHorizontal" value="?android:attr/dividerHorizontal" />
+        <enum name="com.xiaoji.gamesirnsemulator:attr/dividerVertical" value="?android:attr/dividerVertical" />
+        <enum name="com.xiaoji.gamesirnsemulator:attr/editTextBackground" value="@com.xiaoji.gamesirnsemulator:drawable/abc_edit_text_material" />
+        <enum name="com.xiaoji.gamesirnsemulator:attr/editTextColor" value="?android:attr/editTextColor" />
+        <enum name="com.xiaoji.gamesirnsemulator:attr/homeAsUpIndicator" value="?android:attr/homeAsUpIndicator" />
+        <enum name="com.xiaoji.gamesirnsemulator:attr/listChoiceBackgroundIndicator" value="?android:attr/listChoiceBackgroundIndicator" />
+        <enum name="com.xiaoji.gamesirnsemulator:attr/listPreferredItemHeightSmall" value="?android:attr/listPreferredItemHeightSmall" />
+        <enum name="com.xiaoji.gamesirnsemulator:attr/radioButtonStyle" value="?android:attr/radioButtonStyle" />
+        <enum name="com.xiaoji.gamesirnsemulator:attr/ratingBarStyle" value="?android:attr/ratingBarStyle" />
+        <enum name="com.xiaoji.gamesirnsemulator:attr/selectableItemBackground" value="?android:attr/selectableItemBackground" />
+        <enum name="com.xiaoji.gamesirnsemulator:attr/selectableItemBackgroundBorderless" value="?android:attr/selectableItemBackgroundBorderless" />
+        <enum name="com.xiaoji.gamesirnsemulator:attr/spinnerStyle" value="?android:attr/spinnerStyle" />
+        <enum name="com.xiaoji.gamesirnsemulator:attr/textAppearanceLargePopupMenu" value="?android:attr/textAppearanceLargePopupMenu" />
+        <enum name="com.xiaoji.gamesirnsemulator:attr/textAppearanceSmallPopupMenu" value="?android:attr/textAppearanceSmallPopupMenu" />
+    </style>
+    <style name="Base.V21.Theme.AppCompat.Light.Dialog">
+        <enum name="android:attr/windowElevation" value="@com.xiaoji.gamesirnsemulator:dimen/abc_floating_window_z" />
+    </style>
+    <style name="Base.V21.ThemeOverlay.AppCompat.Dialog">
+        <enum name="android:attr/windowElevation" value="@com.xiaoji.gamesirnsemulator:dimen/abc_floating_window_z" />
+    </style>
+    <style name="Base.V22.Theme.AppCompat">
+        <enum name="com.xiaoji.gamesirnsemulator:attr/actionModeShareDrawable" value="?android:attr/actionModeShareDrawable" />
+        <enum name="com.xiaoji.gamesirnsemulator:attr/editTextBackground" value="?android:attr/editTextBackground" />
+    </style>
+    <style name="Base.V22.Theme.AppCompat.Light">
+        <enum name="com.xiaoji.gamesirnsemulator:attr/actionModeShareDrawable" value="?android:attr/actionModeShareDrawable" />
+        <enum name="com.xiaoji.gamesirnsemulator:attr/editTextBackground" value="?android:attr/editTextBackground" />
+    </style>
+    <style name="Base.V23.Theme.AppCompat">
+        <enum name="com.xiaoji.gamesirnsemulator:attr/actionBarItemBackground" value="?android:attr/actionBarItemBackground" />
+        <enum name="com.xiaoji.gamesirnsemulator:attr/actionMenuTextAppearance" value="?android:attr/actionMenuTextAppearance" />
+        <enum name="com.xiaoji.gamesirnsemulator:attr/actionMenuTextColor" value="?android:attr/actionMenuTextColor" />
+        <enum name="com.xiaoji.gamesirnsemulator:attr/actionOverflowButtonStyle" value="?android:attr/actionOverflowButtonStyle" />
+        <enum name="com.xiaoji.gamesirnsemulator:attr/controlBackground" value="@com.xiaoji.gamesirnsemulator:drawable/abc_control_background_material" />
+        <enum name="com.xiaoji.gamesirnsemulator:attr/ratingBarStyleIndicator" value="?android:attr/ratingBarStyleIndicator" />
+        <enum name="com.xiaoji.gamesirnsemulator:attr/ratingBarStyleSmall" value="?android:attr/ratingBarStyleSmall" />
+    </style>
+    <style name="Base.V23.Theme.AppCompat.Light">
+        <enum name="com.xiaoji.gamesirnsemulator:attr/actionBarItemBackground" value="?android:attr/actionBarItemBackground" />
+        <enum name="com.xiaoji.gamesirnsemulator:attr/actionMenuTextAppearance" value="?android:attr/actionMenuTextAppearance" />
+        <enum name="com.xiaoji.gamesirnsemulator:attr/actionMenuTextColor" value="?android:attr/actionMenuTextColor" />
+        <enum name="com.xiaoji.gamesirnsemulator:attr/actionOverflowButtonStyle" value="?android:attr/actionOverflowButtonStyle" />
+        <enum name="com.xiaoji.gamesirnsemulator:attr/controlBackground" value="@com.xiaoji.gamesirnsemulator:drawable/abc_control_background_material" />
+        <enum name="com.xiaoji.gamesirnsemulator:attr/ratingBarStyleIndicator" value="?android:attr/ratingBarStyleIndicator" />
+        <enum name="com.xiaoji.gamesirnsemulator:attr/ratingBarStyleSmall" value="?android:attr/ratingBarStyleSmall" />
+    </style>
+    <style name="Base.V26.Theme.AppCompat">
+        <enum name="com.xiaoji.gamesirnsemulator:attr/colorError" value="?android:attr/colorError" />
+    </style>
+    <style name="Base.V26.Theme.AppCompat.Light">
+        <enum name="com.xiaoji.gamesirnsemulator:attr/colorError" value="?android:attr/colorError" />
+    </style>
+    <style name="Base.V26.Widget.AppCompat.Toolbar">
+        <enum name="android:attr/touchscreenBlocksFocus" value="true" />
+        <enum name="android:attr/keyboardNavigationCluster" value="true" />
+    </style>
+    <style name="Base.V7.Theme.AppCompat">
+        <enum name="android:attr/panelBackground" value="@android:color/transparent" />
+        <enum name="android:attr/dropDownListViewStyle" value="@com.xiaoji.gamesirnsemulator:style/Widget.AppCompat.ListView.DropDown" />
+        <enum name="android:attr/textViewStyle" value="@com.xiaoji.gamesirnsemulator:style/Widget.AppCompat.TextView" />
+        <enum name="android:attr/dropDownItemStyle" value="@com.xiaoji.gamesirnsemulator:style/Widget.AppCompat.DropDownItem.Spinner" />
+        <enum name="android:attr/spinnerItemStyle" value="@com.xiaoji.gamesirnsemulator:style/Widget.AppCompat.TextView.SpinnerItem" />
+        <enum name="android:attr/textAppearanceButton" value="@com.xiaoji.gamesirnsemulator:style/TextAppearance.AppCompat.Widget.Button" />
+        <enum name="com.xiaoji.gamesirnsemulator:attr/actionBarDivider" value="?com.xiaoji.gamesirnsemulator:attr/dividerVertical" />
+        <enum name="com.xiaoji.gamesirnsemulator:attr/actionBarItemBackground" value="?com.xiaoji.gamesirnsemulator:attr/selectableItemBackgroundBorderless" />
+        <enum name="com.xiaoji.gamesirnsemulator:attr/actionBarPopupTheme" value="@ResourceId_0x00000000" />
+        <enum name="com.xiaoji.gamesirnsemulator:attr/actionBarSize" value="@com.xiaoji.gamesirnsemulator:dimen/abc_action_bar_default_height_material" />
+        <enum name="com.xiaoji.gamesirnsemulator:attr/actionBarSplitStyle" value="?com.xiaoji.gamesirnsemulator:attr/actionBarStyle" />
+        <enum name="com.xiaoji.gamesirnsemulator:attr/actionBarStyle" value="@com.xiaoji.gamesirnsemulator:style/Widget.AppCompat.ActionBar.Solid" />
+        <enum name="com.xiaoji.gamesirnsemulator:attr/actionBarTabBarStyle" value="@com.xiaoji.gamesirnsemulator:style/Widget.AppCompat.ActionBar.TabBar" />
+        <enum name="com.xiaoji.gamesirnsemulator:attr/actionBarTabStyle" value="@com.xiaoji.gamesirnsemulator:style/Widget.AppCompat.ActionBar.TabView" />
+        <enum name="com.xiaoji.gamesirnsemulator:attr/actionBarTabTextStyle" value="@com.xiaoji.gamesirnsemulator:style/Widget.AppCompat.ActionBar.TabText" />
+        <enum name="com.xiaoji.gamesirnsemulator:attr/actionBarTheme" value="@com.xiaoji.gamesirnsemulator:style/ThemeOverlay.AppCompat.ActionBar" />
+        <enum name="com.xiaoji.gamesirnsemulator:attr/actionBarWidgetTheme" value="@ResourceId_0x00000000" />
+        <enum name="com.xiaoji.gamesirnsemulator:attr/actionButtonStyle" value="@com.xiaoji.gamesirnsemulator:style/Widget.AppCompat.ActionButton" />
+        <enum name="com.xiaoji.gamesirnsemulator:attr/actionDropDownStyle" value="@com.xiaoji.gamesirnsemulator:style/Widget.AppCompat.Spinner.DropDown.ActionBar" />
+        <enum name="com.xiaoji.gamesirnsemulator:attr/actionMenuTextAppearance" value="@com.xiaoji.gamesirnsemulator:style/TextAppearance.AppCompat.Widget.ActionBar.Menu" />
+        <enum name="com.xiaoji.gamesirnsemulator:attr/actionMenuTextColor" value="?android:attr/textColorPrimaryDisableOnly" />
+        <enum name="com.xiaoji.gamesirnsemulator:attr/actionModeBackground" value="@com.xiaoji.gamesirnsemulator:drawable/abc_cab_background_top_material" />
+        <enum name="com.xiaoji.gamesirnsemulator:attr/actionModeCloseButtonStyle" value="@com.xiaoji.gamesirnsemulator:style/Widget.AppCompat.ActionButton.CloseMode" />
+        <enum name="com.xiaoji.gamesirnsemulator:attr/actionModeCloseDrawable" value="@com.xiaoji.gamesirnsemulator:drawable/abc_ic_ab_back_material" />
+        <enum name="com.xiaoji.gamesirnsemulator:attr/actionModeCopyDrawable" value="@com.xiaoji.gamesirnsemulator:drawable/abc_ic_menu_copy_mtrl_am_alpha" />
+        <enum name="com.xiaoji.gamesirnsemulator:attr/actionModeCutDrawable" value="@com.xiaoji.gamesirnsemulator:drawable/abc_ic_menu_cut_mtrl_alpha" />
+        <enum name="com.xiaoji.gamesirnsemulator:attr/actionModePasteDrawable" value="@com.xiaoji.gamesirnsemulator:drawable/abc_ic_menu_paste_mtrl_am_alpha" />
+        <enum name="com.xiaoji.gamesirnsemulator:attr/actionModeSelectAllDrawable" value="@com.xiaoji.gamesirnsemulator:drawable/abc_ic_menu_selectall_mtrl_alpha" />
+        <enum name="com.xiaoji.gamesirnsemulator:attr/actionModeShareDrawable" value="@com.xiaoji.gamesirnsemulator:drawable/abc_ic_menu_share_mtrl_alpha" />
+        <enum name="com.xiaoji.gamesirnsemulator:attr/actionModeSplitBackground" value="?com.xiaoji.gamesirnsemulator:attr/colorPrimaryDark" />
+        <enum name="com.xiaoji.gamesirnsemulator:attr/actionModeStyle" value="@com.xiaoji.gamesirnsemulator:style/Widget.AppCompat.ActionMode" />
+        <enum name="com.xiaoji.gamesirnsemulator:attr/actionOverflowButtonStyle" value="@com.xiaoji.gamesirnsemulator:style/Widget.AppCompat.ActionButton.Overflow" />
+        <enum name="com.xiaoji.gamesirnsemulator:attr/actionOverflowMenuStyle" value="@com.xiaoji.gamesirnsemulator:style/Widget.AppCompat.PopupMenu.Overflow" />
+        <enum name="com.xiaoji.gamesirnsemulator:attr/activityChooserViewStyle" value="@com.xiaoji.gamesirnsemulator:style/Widget.AppCompat.ActivityChooserView" />
+        <enum name="com.xiaoji.gamesirnsemulator:attr/alertDialogCenterButtons" value="false" />
+        <enum name="com.xiaoji.gamesirnsemulator:attr/alertDialogStyle" value="@com.xiaoji.gamesirnsemulator:style/AlertDialog.AppCompat" />
+        <enum name="com.xiaoji.gamesirnsemulator:attr/alertDialogTheme" value="@com.xiaoji.gamesirnsemulator:style/ThemeOverlay.AppCompat.Dialog.Alert" />
+        <enum name="com.xiaoji.gamesirnsemulator:attr/autoCompleteTextViewStyle" value="@com.xiaoji.gamesirnsemulator:style/Widget.AppCompat.AutoCompleteTextView" />
+        <enum name="com.xiaoji.gamesirnsemulator:attr/borderlessButtonStyle" value="@com.xiaoji.gamesirnsemulator:style/Widget.AppCompat.Button.Borderless" />
+        <enum name="com.xiaoji.gamesirnsemulator:attr/buttonBarButtonStyle" value="@com.xiaoji.gamesirnsemulator:style/Widget.AppCompat.Button.ButtonBar.AlertDialog" />
+        <enum name="com.xiaoji.gamesirnsemulator:attr/buttonBarNegativeButtonStyle" value="?com.xiaoji.gamesirnsemulator:attr/buttonBarButtonStyle" />
+        <enum name="com.xiaoji.gamesirnsemulator:attr/buttonBarNeutralButtonStyle" value="?com.xiaoji.gamesirnsemulator:attr/buttonBarButtonStyle" />
+        <enum name="com.xiaoji.gamesirnsemulator:attr/buttonBarPositiveButtonStyle" value="?com.xiaoji.gamesirnsemulator:attr/buttonBarButtonStyle" />
+        <enum name="com.xiaoji.gamesirnsemulator:attr/buttonBarStyle" value="@com.xiaoji.gamesirnsemulator:style/Widget.AppCompat.ButtonBar" />
+        <enum name="com.xiaoji.gamesirnsemulator:attr/buttonStyle" value="@com.xiaoji.gamesirnsemulator:style/Widget.AppCompat.Button" />
+        <enum name="com.xiaoji.gamesirnsemulator:attr/buttonStyleSmall" value="@com.xiaoji.gamesirnsemulator:style/Widget.AppCompat.Button.Small" />
+        <enum name="com.xiaoji.gamesirnsemulator:attr/checkboxStyle" value="@com.xiaoji.gamesirnsemulator:style/Widget.AppCompat.CompoundButton.CheckBox" />
+        <enum name="com.xiaoji.gamesirnsemulator:attr/colorAccent" value="@com.xiaoji.gamesirnsemulator:color/accent_material_dark" />
+        <enum name="com.xiaoji.gamesirnsemulator:attr/colorBackgroundFloating" value="@com.xiaoji.gamesirnsemulator:color/background_floating_material_dark" />
+        <enum name="com.xiaoji.gamesirnsemulator:attr/colorButtonNormal" value="@com.xiaoji.gamesirnsemulator:color/button_material_dark" />
+        <enum name="com.xiaoji.gamesirnsemulator:attr/colorControlActivated" value="?com.xiaoji.gamesirnsemulator:attr/colorAccent" />
+        <enum name="com.xiaoji.gamesirnsemulator:attr/colorControlHighlight" value="@com.xiaoji.gamesirnsemulator:color/ripple_material_dark" />
+        <enum name="com.xiaoji.gamesirnsemulator:attr/colorControlNormal" value="?android:attr/textColorSecondary" />
+        <enum name="com.xiaoji.gamesirnsemulator:attr/colorError" value="@com.xiaoji.gamesirnsemulator:color/error_color_material_dark" />
+        <enum name="com.xiaoji.gamesirnsemulator:attr/colorPrimary" value="@com.xiaoji.gamesirnsemulator:color/primary_material_dark" />
+        <enum name="com.xiaoji.gamesirnsemulator:attr/colorPrimaryDark" value="@com.xiaoji.gamesirnsemulator:color/primary_dark_material_dark" />
+        <enum name="com.xiaoji.gamesirnsemulator:attr/colorSwitchThumbNormal" value="@com.xiaoji.gamesirnsemulator:color/switch_thumb_material_dark" />
+        <enum name="com.xiaoji.gamesirnsemulator:attr/controlBackground" value="?com.xiaoji.gamesirnsemulator:attr/selectableItemBackgroundBorderless" />
+        <enum name="com.xiaoji.gamesirnsemulator:attr/dialogCornerRadius" value="@com.xiaoji.gamesirnsemulator:dimen/abc_dialog_corner_radius_material" />
+        <enum name="com.xiaoji.gamesirnsemulator:attr/dialogPreferredPadding" value="@com.xiaoji.gamesirnsemulator:dimen/abc_dialog_padding_material" />
+        <enum name="com.xiaoji.gamesirnsemulator:attr/dialogTheme" value="@com.xiaoji.gamesirnsemulator:style/ThemeOverlay.AppCompat.Dialog" />
+        <enum name="com.xiaoji.gamesirnsemulator:attr/dividerHorizontal" value="@com.xiaoji.gamesirnsemulator:drawable/abc_list_divider_mtrl_alpha" />
+        <enum name="com.xiaoji.gamesirnsemulator:attr/dividerVertical" value="@com.xiaoji.gamesirnsemulator:drawable/abc_list_divider_mtrl_alpha" />
+        <enum name="com.xiaoji.gamesirnsemulator:attr/drawerArrowStyle" value="@com.xiaoji.gamesirnsemulator:style/Widget.AppCompat.DrawerArrowToggle" />
+        <enum name="com.xiaoji.gamesirnsemulator:attr/dropDownListViewStyle" value="?android:attr/dropDownListViewStyle" />
+        <enum name="com.xiaoji.gamesirnsemulator:attr/dropdownListPreferredItemHeight" value="?com.xiaoji.gamesirnsemulator:attr/listPreferredItemHeightSmall" />
+        <enum name="com.xiaoji.gamesirnsemulator:attr/editTextBackground" value="@com.xiaoji.gamesirnsemulator:drawable/abc_edit_text_material" />
+        <enum name="com.xiaoji.gamesirnsemulator:attr/editTextColor" value="?android:attr/textColorPrimary" />
+        <enum name="com.xiaoji.gamesirnsemulator:attr/editTextStyle" value="@com.xiaoji.gamesirnsemulator:style/Widget.AppCompat.EditText" />
+        <enum name="com.xiaoji.gamesirnsemulator:attr/homeAsUpIndicator" value="@com.xiaoji.gamesirnsemulator:drawable/abc_ic_ab_back_material" />
+        <enum name="com.xiaoji.gamesirnsemulator:attr/imageButtonStyle" value="@com.xiaoji.gamesirnsemulator:style/Widget.AppCompat.ImageButton" />
+        <enum name="com.xiaoji.gamesirnsemulator:attr/isLightTheme" value="false" />
+        <enum name="com.xiaoji.gamesirnsemulator:attr/listChoiceBackgroundIndicator" value="@com.xiaoji.gamesirnsemulator:drawable/abc_list_selector_holo_dark" />
+        <enum name="com.xiaoji.gamesirnsemulator:attr/listDividerAlertDialog" value="@ResourceId_0x00000000" />
+        <enum name="com.xiaoji.gamesirnsemulator:attr/listMenuViewStyle" value="@com.xiaoji.gamesirnsemulator:style/Widget.AppCompat.ListMenuView" />
+        <enum name="com.xiaoji.gamesirnsemulator:attr/listPopupWindowStyle" value="@com.xiaoji.gamesirnsemulator:style/Widget.AppCompat.ListPopupWindow" />
+        <enum name="com.xiaoji.gamesirnsemulator:attr/listPreferredItemHeight" value="@com.xiaoji.gamesirnsemulator:dimen/abc_list_item_height_material" />
+        <enum name="com.xiaoji.gamesirnsemulator:attr/listPreferredItemHeightLarge" value="@com.xiaoji.gamesirnsemulator:dimen/abc_list_item_height_large_material" />
+        <enum name="com.xiaoji.gamesirnsemulator:attr/listPreferredItemHeightSmall" value="@com.xiaoji.gamesirnsemulator:dimen/abc_list_item_height_small_material" />
+        <enum name="com.xiaoji.gamesirnsemulator:attr/listPreferredItemPaddingEnd" value="@com.xiaoji.gamesirnsemulator:dimen/abc_list_item_padding_horizontal_material" />
+        <enum name="com.xiaoji.gamesirnsemulator:attr/listPreferredItemPaddingLeft" value="@com.xiaoji.gamesirnsemulator:dimen/abc_list_item_padding_horizontal_material" />
+        <enum name="com.xiaoji.gamesirnsemulator:attr/listPreferredItemPaddingRight" value="@com.xiaoji.gamesirnsemulator:dimen/abc_list_item_padding_horizontal_material" />
+        <enum name="com.xiaoji.gamesirnsemulator:attr/listPreferredItemPaddingStart" value="@com.xiaoji.gamesirnsemulator:dimen/abc_list_item_padding_horizontal_material" />
+        <enum name="com.xiaoji.gamesirnsemulator:attr/panelBackground" value="@com.xiaoji.gamesirnsemulator:drawable/abc_menu_hardkey_panel_mtrl_mult" />
+        <enum name="com.xiaoji.gamesirnsemulator:attr/panelMenuListTheme" value="@com.xiaoji.gamesirnsemulator:style/Theme.AppCompat.CompactMenu" />
+        <enum name="com.xiaoji.gamesirnsemulator:attr/panelMenuListWidth" value="@com.xiaoji.gamesirnsemulator:dimen/abc_panel_menu_list_width" />
+        <enum name="com.xiaoji.gamesirnsemulator:attr/popupMenuStyle" value="@com.xiaoji.gamesirnsemulator:style/Widget.AppCompat.PopupMenu" />
+        <enum name="com.xiaoji.gamesirnsemulator:attr/radioButtonStyle" value="@com.xiaoji.gamesirnsemulator:style/Widget.AppCompat.CompoundButton.RadioButton" />
+        <enum name="com.xiaoji.gamesirnsemulator:attr/ratingBarStyle" value="@com.xiaoji.gamesirnsemulator:style/Widget.AppCompat.RatingBar" />
+        <enum name="com.xiaoji.gamesirnsemulator:attr/ratingBarStyleIndicator" value="@com.xiaoji.gamesirnsemulator:style/Widget.AppCompat.RatingBar.Indicator" />
+        <enum name="com.xiaoji.gamesirnsemulator:attr/ratingBarStyleSmall" value="@com.xiaoji.gamesirnsemulator:style/Widget.AppCompat.RatingBar.Small" />
+        <enum name="com.xiaoji.gamesirnsemulator:attr/searchViewStyle" value="@com.xiaoji.gamesirnsemulator:style/Widget.AppCompat.SearchView" />
+        <enum name="com.xiaoji.gamesirnsemulator:attr/seekBarStyle" value="@com.xiaoji.gamesirnsemulator:style/Widget.AppCompat.SeekBar" />
+        <enum name="com.xiaoji.gamesirnsemulator:attr/selectableItemBackground" value="@com.xiaoji.gamesirnsemulator:drawable/abc_item_background_holo_dark" />
+        <enum name="com.xiaoji.gamesirnsemulator:attr/selectableItemBackgroundBorderless" value="?com.xiaoji.gamesirnsemulator:attr/selectableItemBackground" />
+        <enum name="com.xiaoji.gamesirnsemulator:attr/spinnerDropDownItemStyle" value="@com.xiaoji.gamesirnsemulator:style/Widget.AppCompat.DropDownItem.Spinner" />
+        <enum name="com.xiaoji.gamesirnsemulator:attr/spinnerStyle" value="@com.xiaoji.gamesirnsemulator:style/Widget.AppCompat.Spinner" />
+        <enum name="com.xiaoji.gamesirnsemulator:attr/switchStyle" value="@com.xiaoji.gamesirnsemulator:style/Widget.AppCompat.CompoundButton.Switch" />
+        <enum name="com.xiaoji.gamesirnsemulator:attr/textAppearanceLargePopupMenu" value="@com.xiaoji.gamesirnsemulator:style/TextAppearance.AppCompat.Widget.PopupMenu.Large" />
+        <enum name="com.xiaoji.gamesirnsemulator:attr/textAppearanceListItem" value="@com.xiaoji.gamesirnsemulator:style/TextAppearance.AppCompat.Subhead" />
+        <enum name="com.xiaoji.gamesirnsemulator:attr/textAppearanceListItemSecondary" value="@com.xiaoji.gamesirnsemulator:style/TextAppearance.AppCompat.Body1" />
+        <enum name="com.xiaoji.gamesirnsemulator:attr/textAppearanceListItemSmall" value="@com.xiaoji.gamesirnsemulator:style/TextAppearance.AppCompat.Subhead" />
+        <enum name="com.xiaoji.gamesirnsemulator:attr/textAppearancePopupMenuHeader" value="@com.xiaoji.gamesirnsemulator:style/TextAppearance.AppCompat.Widget.PopupMenu.Header" />
+        <enum name="com.xiaoji.gamesirnsemulator:attr/textAppearanceSearchResultSubtitle" value="@com.xiaoji.gamesirnsemulator:style/TextAppearance.AppCompat.SearchResult.Subtitle" />
+        <enum name="com.xiaoji.gamesirnsemulator:attr/textAppearanceSearchResultTitle" value="@com.xiaoji.gamesirnsemulator:style/TextAppearance.AppCompat.SearchResult.Title" />
+        <enum name="com.xiaoji.gamesirnsemulator:attr/textAppearanceSmallPopupMenu" value="@com.xiaoji.gamesirnsemulator:style/TextAppearance.AppCompat.Widget.PopupMenu.Small" />
+        <enum name="com.xiaoji.gamesirnsemulator:attr/textColorAlertDialogListItem" value="@com.xiaoji.gamesirnsemulator:color/abc_primary_text_material_dark" />
+        <enum name="com.xiaoji.gamesirnsemulator:attr/textColorSearchUrl" value="@com.xiaoji.gamesirnsemulator:color/abc_search_url_text" />
+        <enum name="com.xiaoji.gamesirnsemulator:attr/toolbarNavigationButtonStyle" value="@com.xiaoji.gamesirnsemulator:style/Widget.AppCompat.Toolbar.Button.Navigation" />
+        <enum name="com.xiaoji.gamesirnsemulator:attr/toolbarStyle" value="@com.xiaoji.gamesirnsemulator:style/Widget.AppCompat.Toolbar" />
+        <enum name="com.xiaoji.gamesirnsemulator:attr/tooltipForegroundColor" value="@com.xiaoji.gamesirnsemulator:color/foreground_material_light" />
+        <enum name="com.xiaoji.gamesirnsemulator:attr/tooltipFrameBackground" value="@com.xiaoji.gamesirnsemulator:drawable/tooltip_frame_light" />
+        <enum name="com.xiaoji.gamesirnsemulator:attr/viewInflaterClass" value="androidx.appcompat.app.AppCompatViewInflater" />
+        <enum name="com.xiaoji.gamesirnsemulator:attr/windowActionBar" value="true" />
+        <enum name="com.xiaoji.gamesirnsemulator:attr/windowActionBarOverlay" value="false" />
+        <enum name="com.xiaoji.gamesirnsemulator:attr/windowActionModeOverlay" value="false" />
+        <enum name="com.xiaoji.gamesirnsemulator:attr/windowFixedHeightMajor" value="@ResourceId_0x00000000" />
+        <enum name="com.xiaoji.gamesirnsemulator:attr/windowFixedHeightMinor" value="@ResourceId_0x00000000" />
+        <enum name="com.xiaoji.gamesirnsemulator:attr/windowFixedWidthMajor" value="@ResourceId_0x00000000" />
+        <enum name="com.xiaoji.gamesirnsemulator:attr/windowFixedWidthMinor" value="@ResourceId_0x00000000" />
+        <enum name="com.xiaoji.gamesirnsemulator:attr/windowNoTitle" value="false" />
+    </style>
+    <style name="Base.V7.Theme.AppCompat.Dialog">
+        <enum name="android:attr/colorBackground" value="?com.xiaoji.gamesirnsemulator:attr/colorBackgroundFloating" />
+        <enum name="android:attr/windowBackground" value="@com.xiaoji.gamesirnsemulator:drawable/abc_dialog_material_background" />
+        <enum name="android:attr/windowFrame" value="@ResourceId_0x00000000" />
+        <enum name="android:attr/windowIsFloating" value="true" />
+        <enum name="android:attr/windowContentOverlay" value="@ResourceId_0x00000000" />
+        <enum name="android:attr/windowTitleStyle" value="@com.xiaoji.gamesirnsemulator:style/RtlOverlay.DialogWindowTitle.AppCompat" />
+        <enum name="android:attr/windowTitleBackgroundStyle" value="@com.xiaoji.gamesirnsemulator:style/Base.DialogWindowTitleBackground.AppCompat" />
+        <enum name="android:attr/windowAnimationStyle" value="@com.xiaoji.gamesirnsemulator:style/Animation.AppCompat.Dialog" />
+        <enum name="android:attr/listDivider" value="@ResourceId_0x00000000" />
+        <enum name="android:attr/backgroundDimEnabled" value="true" />
+        <enum name="android:attr/windowSoftInputMode" value="0x20" />
+        <enum name="android:attr/colorBackgroundCacheHint" value="@ResourceId_0x00000000" />
+        <enum name="android:attr/borderlessButtonStyle" value="@com.xiaoji.gamesirnsemulator:style/Widget.AppCompat.Button.Borderless" />
+        <enum name="android:attr/buttonBarStyle" value="@com.xiaoji.gamesirnsemulator:style/Widget.AppCompat.ButtonBar.AlertDialog" />
+        <enum name="android:attr/windowCloseOnTouchOutside" value="true" />
+        <enum name="com.xiaoji.gamesirnsemulator:attr/listPreferredItemPaddingLeft" value="24.0dp" />
+        <enum name="com.xiaoji.gamesirnsemulator:attr/listPreferredItemPaddingRight" value="24.0dp" />
+        <enum name="com.xiaoji.gamesirnsemulator:attr/windowActionBar" value="false" />
+        <enum name="com.xiaoji.gamesirnsemulator:attr/windowActionModeOverlay" value="true" />
+    </style>
+    <style name="Base.V7.Theme.AppCompat.Light">
+        <enum name="android:attr/panelBackground" value="@android:color/transparent" />
+        <enum name="android:attr/dropDownListViewStyle" value="@com.xiaoji.gamesirnsemulator:style/Widget.AppCompat.ListView.DropDown" />
+        <enum name="android:attr/textViewStyle" value="@com.xiaoji.gamesirnsemulator:style/Widget.AppCompat.TextView" />
+        <enum name="android:attr/dropDownItemStyle" value="@com.xiaoji.gamesirnsemulator:style/Widget.AppCompat.DropDownItem.Spinner" />
+        <enum name="android:attr/spinnerItemStyle" value="@com.xiaoji.gamesirnsemulator:style/Widget.AppCompat.TextView.SpinnerItem" />
+        <enum name="android:attr/textAppearanceButton" value="@com.xiaoji.gamesirnsemulator:style/TextAppearance.AppCompat.Widget.Button" />
+        <enum name="com.xiaoji.gamesirnsemulator:attr/actionBarDivider" value="?com.xiaoji.gamesirnsemulator:attr/dividerVertical" />
+        <enum name="com.xiaoji.gamesirnsemulator:attr/actionBarItemBackground" value="?com.xiaoji.gamesirnsemulator:attr/selectableItemBackgroundBorderless" />
+        <enum name="com.xiaoji.gamesirnsemulator:attr/actionBarPopupTheme" value="@ResourceId_0x00000000" />
+        <enum name="com.xiaoji.gamesirnsemulator:attr/actionBarSize" value="@com.xiaoji.gamesirnsemulator:dimen/abc_action_bar_default_height_material" />
+        <enum name="com.xiaoji.gamesirnsemulator:attr/actionBarSplitStyle" value="?com.xiaoji.gamesirnsemulator:attr/actionBarStyle" />
+        <enum name="com.xiaoji.gamesirnsemulator:attr/actionBarStyle" value="@com.xiaoji.gamesirnsemulator:style/Widget.AppCompat.Light.ActionBar.Solid" />
+        <enum name="com.xiaoji.gamesirnsemulator:attr/actionBarTabBarStyle" value="@com.xiaoji.gamesirnsemulator:style/Widget.AppCompat.Light.ActionBar.TabBar" />
+        <enum name="com.xiaoji.gamesirnsemulator:attr/actionBarTabStyle" value="@com.xiaoji.gamesirnsemulator:style/Widget.AppCompat.Light.ActionBar.TabView" />
+        <enum name="com.xiaoji.gamesirnsemulator:attr/actionBarTabTextStyle" value="@com.xiaoji.gamesirnsemulator:style/Widget.AppCompat.Light.ActionBar.TabText" />
+        <enum name="com.xiaoji.gamesirnsemulator:attr/actionBarTheme" value="@com.xiaoji.gamesirnsemulator:style/ThemeOverlay.AppCompat.ActionBar" />
+        <enum name="com.xiaoji.gamesirnsemulator:attr/actionBarWidgetTheme" value="@ResourceId_0x00000000" />
+        <enum name="com.xiaoji.gamesirnsemulator:attr/actionButtonStyle" value="@com.xiaoji.gamesirnsemulator:style/Widget.AppCompat.Light.ActionButton" />
+        <enum name="com.xiaoji.gamesirnsemulator:attr/actionDropDownStyle" value="@com.xiaoji.gamesirnsemulator:style/Widget.AppCompat.Light.Spinner.DropDown.ActionBar" />
+        <enum name="com.xiaoji.gamesirnsemulator:attr/actionMenuTextAppearance" value="@com.xiaoji.gamesirnsemulator:style/TextAppearance.AppCompat.Widget.ActionBar.Menu" />
+        <enum name="com.xiaoji.gamesirnsemulator:attr/actionMenuTextColor" value="?android:attr/textColorPrimaryDisableOnly" />
+        <enum name="com.xiaoji.gamesirnsemulator:attr/actionModeBackground" value="@com.xiaoji.gamesirnsemulator:drawable/abc_cab_background_top_material" />
+        <enum name="com.xiaoji.gamesirnsemulator:attr/actionModeCloseButtonStyle" value="@com.xiaoji.gamesirnsemulator:style/Widget.AppCompat.ActionButton.CloseMode" />
+        <enum name="com.xiaoji.gamesirnsemulator:attr/actionModeCloseDrawable" value="@com.xiaoji.gamesirnsemulator:drawable/abc_ic_ab_back_material" />
+        <enum name="com.xiaoji.gamesirnsemulator:attr/actionModeCopyDrawable" value="@com.xiaoji.gamesirnsemulator:drawable/abc_ic_menu_copy_mtrl_am_alpha" />
+        <enum name="com.xiaoji.gamesirnsemulator:attr/actionModeCutDrawable" value="@com.xiaoji.gamesirnsemulator:drawable/abc_ic_menu_cut_mtrl_alpha" />
+        <enum name="com.xiaoji.gamesirnsemulator:attr/actionModePasteDrawable" value="@com.xiaoji.gamesirnsemulator:drawable/abc_ic_menu_paste_mtrl_am_alpha" />
+        <enum name="com.xiaoji.gamesirnsemulator:attr/actionModeSelectAllDrawable" value="@com.xiaoji.gamesirnsemulator:drawable/abc_ic_menu_selectall_mtrl_alpha" />
+        <enum name="com.xiaoji.gamesirnsemulator:attr/actionModeShareDrawable" value="@com.xiaoji.gamesirnsemulator:drawable/abc_ic_menu_share_mtrl_alpha" />
+        <enum name="com.xiaoji.gamesirnsemulator:attr/actionModeSplitBackground" value="?com.xiaoji.gamesirnsemulator:attr/colorPrimaryDark" />
+        <enum name="com.xiaoji.gamesirnsemulator:attr/actionModeStyle" value="@com.xiaoji.gamesirnsemulator:style/Widget.AppCompat.ActionMode" />
+        <enum name="com.xiaoji.gamesirnsemulator:attr/actionOverflowButtonStyle" value="@com.xiaoji.gamesirnsemulator:style/Widget.AppCompat.Light.ActionButton.Overflow" />
+        <enum name="com.xiaoji.gamesirnsemulator:attr/actionOverflowMenuStyle" value="@com.xiaoji.gamesirnsemulator:style/Widget.AppCompat.Light.PopupMenu.Overflow" />
+        <enum name="com.xiaoji.gamesirnsemulator:attr/activityChooserViewStyle" value="@com.xiaoji.gamesirnsemulator:style/Widget.AppCompat.ActivityChooserView" />
+        <enum name="com.xiaoji.gamesirnsemulator:attr/alertDialogCenterButtons" value="false" />
+        <enum name="com.xiaoji.gamesirnsemulator:attr/alertDialogStyle" value="@com.xiaoji.gamesirnsemulator:style/AlertDialog.AppCompat.Light" />
+        <enum name="com.xiaoji.gamesirnsemulator:attr/alertDialogTheme" value="@com.xiaoji.gamesirnsemulator:style/ThemeOverlay.AppCompat.Dialog.Alert" />
+        <enum name="com.xiaoji.gamesirnsemulator:attr/autoCompleteTextViewStyle" value="@com.xiaoji.gamesirnsemulator:style/Widget.AppCompat.AutoCompleteTextView" />
+        <enum name="com.xiaoji.gamesirnsemulator:attr/borderlessButtonStyle" value="@com.xiaoji.gamesirnsemulator:style/Widget.AppCompat.Button.Borderless" />
+        <enum name="com.xiaoji.gamesirnsemulator:attr/buttonBarButtonStyle" value="@com.xiaoji.gamesirnsemulator:style/Widget.AppCompat.Button.ButtonBar.AlertDialog" />
+        <enum name="com.xiaoji.gamesirnsemulator:attr/buttonBarNegativeButtonStyle" value="?com.xiaoji.gamesirnsemulator:attr/buttonBarButtonStyle" />
+        <enum name="com.xiaoji.gamesirnsemulator:attr/buttonBarNeutralButtonStyle" value="?com.xiaoji.gamesirnsemulator:attr/buttonBarButtonStyle" />
+        <enum name="com.xiaoji.gamesirnsemulator:attr/buttonBarPositiveButtonStyle" value="?com.xiaoji.gamesirnsemulator:attr/buttonBarButtonStyle" />
+        <enum name="com.xiaoji.gamesirnsemulator:attr/buttonBarStyle" value="@com.xiaoji.gamesirnsemulator:style/Widget.AppCompat.ButtonBar" />
+        <enum name="com.xiaoji.gamesirnsemulator:attr/buttonStyle" value="@com.xiaoji.gamesirnsemulator:style/Widget.AppCompat.Button" />
+        <enum name="com.xiaoji.gamesirnsemulator:attr/buttonStyleSmall" value="@com.xiaoji.gamesirnsemulator:style/Widget.AppCompat.Button.Small" />
+        <enum name="com.xiaoji.gamesirnsemulator:attr/checkboxStyle" value="@com.xiaoji.gamesirnsemulator:style/Widget.AppCompat.CompoundButton.CheckBox" />
+        <enum name="com.xiaoji.gamesirnsemulator:attr/colorAccent" value="@com.xiaoji.gamesirnsemulator:color/accent_material_light" />
+        <enum name="com.xiaoji.gamesirnsemulator:attr/colorBackgroundFloating" value="@com.xiaoji.gamesirnsemulator:color/background_floating_material_light" />
+        <enum name="com.xiaoji.gamesirnsemulator:attr/colorButtonNormal" value="@com.xiaoji.gamesirnsemulator:color/button_material_light" />
+        <enum name="com.xiaoji.gamesirnsemulator:attr/colorControlActivated" value="?com.xiaoji.gamesirnsemulator:attr/colorAccent" />
+        <enum name="com.xiaoji.gamesirnsemulator:attr/colorControlHighlight" value="@com.xiaoji.gamesirnsemulator:color/ripple_material_light" />
+        <enum name="com.xiaoji.gamesirnsemulator:attr/colorControlNormal" value="?android:attr/textColorSecondary" />
+        <enum name="com.xiaoji.gamesirnsemulator:attr/colorError" value="@com.xiaoji.gamesirnsemulator:color/error_color_material_light" />
+        <enum name="com.xiaoji.gamesirnsemulator:attr/colorPrimary" value="@com.xiaoji.gamesirnsemulator:color/primary_material_light" />
+        <enum name="com.xiaoji.gamesirnsemulator:attr/colorPrimaryDark" value="@com.xiaoji.gamesirnsemulator:color/primary_dark_material_light" />
+        <enum name="com.xiaoji.gamesirnsemulator:attr/colorSwitchThumbNormal" value="@com.xiaoji.gamesirnsemulator:color/switch_thumb_material_light" />
+        <enum name="com.xiaoji.gamesirnsemulator:attr/controlBackground" value="?com.xiaoji.gamesirnsemulator:attr/selectableItemBackgroundBorderless" />
+        <enum name="com.xiaoji.gamesirnsemulator:attr/dialogCornerRadius" value="@com.xiaoji.gamesirnsemulator:dimen/abc_dialog_corner_radius_material" />
+        <enum name="com.xiaoji.gamesirnsemulator:attr/dialogPreferredPadding" value="@com.xiaoji.gamesirnsemulator:dimen/abc_dialog_padding_material" />
+        <enum name="com.xiaoji.gamesirnsemulator:attr/dialogTheme" value="@com.xiaoji.gamesirnsemulator:style/ThemeOverlay.AppCompat.Dialog" />
+        <enum name="com.xiaoji.gamesirnsemulator:attr/dividerHorizontal" value="@com.xiaoji.gamesirnsemulator:drawable/abc_list_divider_mtrl_alpha" />
+        <enum name="com.xiaoji.gamesirnsemulator:attr/dividerVertical" value="@com.xiaoji.gamesirnsemulator:drawable/abc_list_divider_mtrl_alpha" />
+        <enum name="com.xiaoji.gamesirnsemulator:attr/drawerArrowStyle" value="@com.xiaoji.gamesirnsemulator:style/Widget.AppCompat.DrawerArrowToggle" />
+        <enum name="com.xiaoji.gamesirnsemulator:attr/dropDownListViewStyle" value="?android:attr/dropDownListViewStyle" />
+        <enum name="com.xiaoji.gamesirnsemulator:attr/dropdownListPreferredItemHeight" value="?com.xiaoji.gamesirnsemulator:attr/listPreferredItemHeightSmall" />
+        <enum name="com.xiaoji.gamesirnsemulator:attr/editTextBackground" value="@com.xiaoji.gamesirnsemulator:drawable/abc_edit_text_material" />
+        <enum name="com.xiaoji.gamesirnsemulator:attr/editTextColor" value="?android:attr/textColorPrimary" />
+        <enum name="com.xiaoji.gamesirnsemulator:attr/editTextStyle" value="@com.xiaoji.gamesirnsemulator:style/Widget.AppCompat.EditText" />
+        <enum name="com.xiaoji.gamesirnsemulator:attr/homeAsUpIndicator" value="@com.xiaoji.gamesirnsemulator:drawable/abc_ic_ab_back_material" />
+        <enum name="com.xiaoji.gamesirnsemulator:attr/imageButtonStyle" value="@com.xiaoji.gamesirnsemulator:style/Widget.AppCompat.ImageButton" />
+        <enum name="com.xiaoji.gamesirnsemulator:attr/isLightTheme" value="true" />
+        <enum name="com.xiaoji.gamesirnsemulator:attr/listChoiceBackgroundIndicator" value="@com.xiaoji.gamesirnsemulator:drawable/abc_list_selector_holo_light" />
+        <enum name="com.xiaoji.gamesirnsemulator:attr/listDividerAlertDialog" value="@ResourceId_0x00000000" />
+        <enum name="com.xiaoji.gamesirnsemulator:attr/listMenuViewStyle" value="@com.xiaoji.gamesirnsemulator:style/Widget.AppCompat.ListMenuView" />
+        <enum name="com.xiaoji.gamesirnsemulator:attr/listPopupWindowStyle" value="@com.xiaoji.gamesirnsemulator:style/Widget.AppCompat.ListPopupWindow" />
+        <enum name="com.xiaoji.gamesirnsemulator:attr/listPreferredItemHeight" value="@com.xiaoji.gamesirnsemulator:dimen/abc_list_item_height_material" />
+        <enum name="com.xiaoji.gamesirnsemulator:attr/listPreferredItemHeightLarge" value="@com.xiaoji.gamesirnsemulator:dimen/abc_list_item_height_large_material" />
+        <enum name="com.xiaoji.gamesirnsemulator:attr/listPreferredItemHeightSmall" value="@com.xiaoji.gamesirnsemulator:dimen/abc_list_item_height_small_material" />
+        <enum name="com.xiaoji.gamesirnsemulator:attr/listPreferredItemPaddingEnd" value="@com.xiaoji.gamesirnsemulator:dimen/abc_list_item_padding_horizontal_material" />
+        <enum name="com.xiaoji.gamesirnsemulator:attr/listPreferredItemPaddingLeft" value="@com.xiaoji.gamesirnsemulator:dimen/abc_list_item_padding_horizontal_material" />
+        <enum name="com.xiaoji.gamesirnsemulator:attr/listPreferredItemPaddingRight" value="@com.xiaoji.gamesirnsemulator:dimen/abc_list_item_padding_horizontal_material" />
+        <enum name="com.xiaoji.gamesirnsemulator:attr/listPreferredItemPaddingStart" value="@com.xiaoji.gamesirnsemulator:dimen/abc_list_item_padding_horizontal_material" />
+        <enum name="com.xiaoji.gamesirnsemulator:attr/panelBackground" value="@com.xiaoji.gamesirnsemulator:drawable/abc_menu_hardkey_panel_mtrl_mult" />
+        <enum name="com.xiaoji.gamesirnsemulator:attr/panelMenuListTheme" value="@com.xiaoji.gamesirnsemulator:style/Theme.AppCompat.CompactMenu" />
+        <enum name="com.xiaoji.gamesirnsemulator:attr/panelMenuListWidth" value="@com.xiaoji.gamesirnsemulator:dimen/abc_panel_menu_list_width" />
+        <enum name="com.xiaoji.gamesirnsemulator:attr/popupMenuStyle" value="@com.xiaoji.gamesirnsemulator:style/Widget.AppCompat.Light.PopupMenu" />
+        <enum name="com.xiaoji.gamesirnsemulator:attr/radioButtonStyle" value="@com.xiaoji.gamesirnsemulator:style/Widget.AppCompat.CompoundButton.RadioButton" />
+        <enum name="com.xiaoji.gamesirnsemulator:attr/ratingBarStyle" value="@com.xiaoji.gamesirnsemulator:style/Widget.AppCompat.RatingBar" />
+        <enum name="com.xiaoji.gamesirnsemulator:attr/ratingBarStyleIndicator" value="@com.xiaoji.gamesirnsemulator:style/Widget.AppCompat.RatingBar.Indicator" />
+        <enum name="com.xiaoji.gamesirnsemulator:attr/ratingBarStyleSmall" value="@com.xiaoji.gamesirnsemulator:style/Widget.AppCompat.RatingBar.Small" />
+        <enum name="com.xiaoji.gamesirnsemulator:attr/searchViewStyle" value="@com.xiaoji.gamesirnsemulator:style/Widget.AppCompat.Light.SearchView" />
+        <enum name="com.xiaoji.gamesirnsemulator:attr/seekBarStyle" value="@com.xiaoji.gamesirnsemulator:style/Widget.AppCompat.SeekBar" />
+        <enum name="com.xiaoji.gamesirnsemulator:attr/selectableItemBackground" value="@com.xiaoji.gamesirnsemulator:drawable/abc_item_background_holo_light" />
+        <enum name="com.xiaoji.gamesirnsemulator:attr/selectableItemBackgroundBorderless" value="?com.xiaoji.gamesirnsemulator:attr/selectableItemBackground" />
+        <enum name="com.xiaoji.gamesirnsemulator:attr/spinnerDropDownItemStyle" value="@com.xiaoji.gamesirnsemulator:style/Widget.AppCompat.DropDownItem.Spinner" />
+        <enum name="com.xiaoji.gamesirnsemulator:attr/spinnerStyle" value="@com.xiaoji.gamesirnsemulator:style/Widget.AppCompat.Spinner" />
+        <enum name="com.xiaoji.gamesirnsemulator:attr/switchStyle" value="@com.xiaoji.gamesirnsemulator:style/Widget.AppCompat.CompoundButton.Switch" />
+        <enum name="com.xiaoji.gamesirnsemulator:attr/textAppearanceLargePopupMenu" value="@com.xiaoji.gamesirnsemulator:style/TextAppearance.AppCompat.Light.Widget.PopupMenu.Large" />
+        <enum name="com.xiaoji.gamesirnsemulator:attr/textAppearanceListItem" value="@com.xiaoji.gamesirnsemulator:style/TextAppearance.AppCompat.Subhead" />
+        <enum name="com.xiaoji.gamesirnsemulator:attr/textAppearanceListItemSecondary" value="@com.xiaoji.gamesirnsemulator:style/TextAppearance.AppCompat.Body1" />
+        <enum name="com.xiaoji.gamesirnsemulator:attr/textAppearanceListItemSmall" value="@com.xiaoji.gamesirnsemulator:style/TextAppearance.AppCompat.Subhead" />
+        <enum name="com.xiaoji.gamesirnsemulator:attr/textAppearancePopupMenuHeader" value="@com.xiaoji.gamesirnsemulator:style/TextAppearance.AppCompat.Widget.PopupMenu.Header" />
+        <enum name="com.xiaoji.gamesirnsemulator:attr/textAppearanceSearchResultSubtitle" value="@com.xiaoji.gamesirnsemulator:style/TextAppearance.AppCompat.SearchResult.Subtitle" />
+        <enum name="com.xiaoji.gamesirnsemulator:attr/textAppearanceSearchResultTitle" value="@com.xiaoji.gamesirnsemulator:style/TextAppearance.AppCompat.SearchResult.Title" />
+        <enum name="com.xiaoji.gamesirnsemulator:attr/textAppearanceSmallPopupMenu" value="@com.xiaoji.gamesirnsemulator:style/TextAppearance.AppCompat.Light.Widget.PopupMenu.Small" />
+        <enum name="com.xiaoji.gamesirnsemulator:attr/textColorAlertDialogListItem" value="@com.xiaoji.gamesirnsemulator:color/abc_primary_text_material_light" />
+        <enum name="com.xiaoji.gamesirnsemulator:attr/textColorSearchUrl" value="@com.xiaoji.gamesirnsemulator:color/abc_search_url_text" />
+        <enum name="com.xiaoji.gamesirnsemulator:attr/toolbarNavigationButtonStyle" value="@com.xiaoji.gamesirnsemulator:style/Widget.AppCompat.Toolbar.Button.Navigation" />
+        <enum name="com.xiaoji.gamesirnsemulator:attr/toolbarStyle" value="@com.xiaoji.gamesirnsemulator:style/Widget.AppCompat.Toolbar" />
+        <enum name="com.xiaoji.gamesirnsemulator:attr/tooltipForegroundColor" value="@com.xiaoji.gamesirnsemulator:color/foreground_material_dark" />
+        <enum name="com.xiaoji.gamesirnsemulator:attr/tooltipFrameBackground" value="@com.xiaoji.gamesirnsemulator:drawable/tooltip_frame_dark" />
+        <enum name="com.xiaoji.gamesirnsemulator:attr/viewInflaterClass" value="androidx.appcompat.app.AppCompatViewInflater" />
+        <enum name="com.xiaoji.gamesirnsemulator:attr/windowActionBar" value="true" />
+        <enum name="com.xiaoji.gamesirnsemulator:attr/windowActionBarOverlay" value="false" />
+        <enum name="com.xiaoji.gamesirnsemulator:attr/windowActionModeOverlay" value="false" />
+        <enum name="com.xiaoji.gamesirnsemulator:attr/windowFixedHeightMajor" value="@ResourceId_0x00000000" />
+        <enum name="com.xiaoji.gamesirnsemulator:attr/windowFixedHeightMinor" value="@ResourceId_0x00000000" />
+        <enum name="com.xiaoji.gamesirnsemulator:attr/windowFixedWidthMajor" value="@ResourceId_0x00000000" />
+        <enum name="com.xiaoji.gamesirnsemulator:attr/windowFixedWidthMinor" value="@ResourceId_0x00000000" />
+        <enum name="com.xiaoji.gamesirnsemulator:attr/windowNoTitle" value="false" />
+    </style>
+    <style name="Base.V7.Theme.AppCompat.Light.Dialog">
+        <enum name="android:attr/colorBackground" value="?com.xiaoji.gamesirnsemulator:attr/colorBackgroundFloating" />
+        <enum name="android:attr/windowBackground" value="@com.xiaoji.gamesirnsemulator:drawable/abc_dialog_material_background" />
+        <enum name="android:attr/windowFrame" value="@ResourceId_0x00000000" />
+        <enum name="android:attr/windowIsFloating" value="true" />
+        <enum name="android:attr/windowContentOverlay" value="@ResourceId_0x00000000" />
+        <enum name="android:attr/windowTitleStyle" value="@com.xiaoji.gamesirnsemulator:style/RtlOverlay.DialogWindowTitle.AppCompat" />
+        <enum name="android:attr/windowTitleBackgroundStyle" value="@com.xiaoji.gamesirnsemulator:style/Base.DialogWindowTitleBackground.AppCompat" />
+        <enum name="android:attr/windowAnimationStyle" value="@com.xiaoji.gamesirnsemulator:style/Animation.AppCompat.Dialog" />
+        <enum name="android:attr/listDivider" value="@ResourceId_0x00000000" />
+        <enum name="android:attr/backgroundDimEnabled" value="true" />
+        <enum name="android:attr/windowSoftInputMode" value="0x20" />
+        <enum name="android:attr/colorBackgroundCacheHint" value="@ResourceId_0x00000000" />
+        <enum name="android:attr/borderlessButtonStyle" value="@com.xiaoji.gamesirnsemulator:style/Widget.AppCompat.Button.Borderless" />
+        <enum name="android:attr/buttonBarStyle" value="@com.xiaoji.gamesirnsemulator:style/Widget.AppCompat.ButtonBar.AlertDialog" />
+        <enum name="android:attr/windowCloseOnTouchOutside" value="true" />
+        <enum name="com.xiaoji.gamesirnsemulator:attr/listPreferredItemPaddingLeft" value="24.0dp" />
+        <enum name="com.xiaoji.gamesirnsemulator:attr/listPreferredItemPaddingRight" value="24.0dp" />
+        <enum name="com.xiaoji.gamesirnsemulator:attr/windowActionBar" value="false" />
+        <enum name="com.xiaoji.gamesirnsemulator:attr/windowActionModeOverlay" value="true" />
+    </style>
+    <style name="Base.V7.ThemeOverlay.AppCompat.Dialog">
+        <enum name="android:attr/colorBackground" value="?com.xiaoji.gamesirnsemulator:attr/colorBackgroundFloating" />
+        <enum name="android:attr/windowBackground" value="@com.xiaoji.gamesirnsemulator:drawable/abc_dialog_material_background" />
+        <enum name="android:attr/windowFrame" value="@ResourceId_0x00000000" />
+        <enum name="android:attr/windowIsFloating" value="true" />
+        <enum name="android:attr/windowContentOverlay" value="@ResourceId_0x00000000" />
+        <enum name="android:attr/windowTitleStyle" value="@com.xiaoji.gamesirnsemulator:style/RtlOverlay.DialogWindowTitle.AppCompat" />
+        <enum name="android:attr/windowTitleBackgroundStyle" value="@com.xiaoji.gamesirnsemulator:style/Base.DialogWindowTitleBackground.AppCompat" />
+        <enum name="android:attr/windowAnimationStyle" value="@com.xiaoji.gamesirnsemulator:style/Animation.AppCompat.Dialog" />
+        <enum name="android:attr/listDivider" value="@ResourceId_0x00000000" />
+        <enum name="android:attr/backgroundDimEnabled" value="true" />
+        <enum name="android:attr/windowSoftInputMode" value="0x20" />
+        <enum name="android:attr/colorBackgroundCacheHint" value="@ResourceId_0x00000000" />
+        <enum name="android:attr/borderlessButtonStyle" value="@com.xiaoji.gamesirnsemulator:style/Widget.AppCompat.Button.Borderless" />
+        <enum name="android:attr/buttonBarStyle" value="@com.xiaoji.gamesirnsemulator:style/Widget.AppCompat.ButtonBar.AlertDialog" />
+        <enum name="android:attr/windowCloseOnTouchOutside" value="true" />
+        <enum name="com.xiaoji.gamesirnsemulator:attr/listPreferredItemPaddingLeft" value="24.0dp" />
+        <enum name="com.xiaoji.gamesirnsemulator:attr/listPreferredItemPaddingRight" value="24.0dp" />
+        <enum name="com.xiaoji.gamesirnsemulator:attr/windowActionBar" value="false" />
+        <enum name="com.xiaoji.gamesirnsemulator:attr/windowActionModeOverlay" value="true" />
+        <enum name="com.xiaoji.gamesirnsemulator:attr/windowFixedHeightMajor" value="@ResourceId_0x00000000" />
+        <enum name="com.xiaoji.gamesirnsemulator:attr/windowFixedHeightMinor" value="@ResourceId_0x00000000" />
+        <enum name="com.xiaoji.gamesirnsemulator:attr/windowFixedWidthMajor" value="@ResourceId_0x00000000" />
+        <enum name="com.xiaoji.gamesirnsemulator:attr/windowFixedWidthMinor" value="@ResourceId_0x00000000" />
+    </style>
+    <style name="Base.V7.Widget.AppCompat.AutoCompleteTextView">
+        <enum name="android:attr/textAppearance" value="?android:attr/textAppearanceMediumInverse" />
+        <enum name="android:attr/textColor" value="?com.xiaoji.gamesirnsemulator:attr/editTextColor" />
+        <enum name="android:attr/background" value="?com.xiaoji.gamesirnsemulator:attr/editTextBackground" />
+        <enum name="android:attr/dropDownSelector" value="?com.xiaoji.gamesirnsemulator:attr/listChoiceBackgroundIndicator" />
+        <enum name="android:attr/popupBackground" value="@com.xiaoji.gamesirnsemulator:drawable/abc_popup_background_mtrl_mult" />
+        <enum name="android:attr/textCursorDrawable" value="@com.xiaoji.gamesirnsemulator:drawable/abc_text_cursor_material" />
+    </style>
+    <style name="Base.V7.Widget.AppCompat.EditText">
+        <enum name="android:attr/textAppearance" value="?android:attr/textAppearanceMediumInverse" />
+        <enum name="android:attr/textColor" value="?com.xiaoji.gamesirnsemulator:attr/editTextColor" />
+        <enum name="android:attr/background" value="?com.xiaoji.gamesirnsemulator:attr/editTextBackground" />
+        <enum name="android:attr/textCursorDrawable" value="@com.xiaoji.gamesirnsemulator:drawable/abc_text_cursor_material" />
+    </style>
+    <style name="Base.V7.Widget.AppCompat.Toolbar">
+        <enum name="android:attr/paddingLeft" value="@com.xiaoji.gamesirnsemulator:dimen/abc_action_bar_default_padding_start_material" />
+        <enum name="android:attr/paddingRight" value="@com.xiaoji.gamesirnsemulator:dimen/abc_action_bar_default_padding_end_material" />
+        <enum name="android:attr/minHeight" value="?com.xiaoji.gamesirnsemulator:attr/actionBarSize" />
+        <enum name="com.xiaoji.gamesirnsemulator:attr/buttonGravity" value="0x30" />
+        <enum name="com.xiaoji.gamesirnsemulator:attr/collapseContentDescription" value="@com.xiaoji.gamesirnsemulator:string/abc_toolbar_collapse_description" />
+        <enum name="com.xiaoji.gamesirnsemulator:attr/collapseIcon" value="?com.xiaoji.gamesirnsemulator:attr/homeAsUpIndicator" />
+        <enum name="com.xiaoji.gamesirnsemulator:attr/contentInsetStart" value="16.0dp" />
+        <enum name="com.xiaoji.gamesirnsemulator:attr/contentInsetStartWithNavigation" value="@com.xiaoji.gamesirnsemulator:dimen/abc_action_bar_content_inset_with_nav" />
+        <enum name="com.xiaoji.gamesirnsemulator:attr/maxButtonHeight" value="@com.xiaoji.gamesirnsemulator:dimen/abc_action_bar_default_height_material" />
+        <enum name="com.xiaoji.gamesirnsemulator:attr/subtitleTextAppearance" value="@com.xiaoji.gamesirnsemulator:style/TextAppearance.Widget.AppCompat.Toolbar.Subtitle" />
+        <enum name="com.xiaoji.gamesirnsemulator:attr/titleMargin" value="4.0dp" />
+        <enum name="com.xiaoji.gamesirnsemulator:attr/titleTextAppearance" value="@com.xiaoji.gamesirnsemulator:style/TextAppearance.Widget.AppCompat.Toolbar.Title" />
+    </style>
+    <style name="Base.Widget.AppCompat.ActionBar">
+        <enum name="android:attr/gravity" value="0x10" />
+        <enum name="com.xiaoji.gamesirnsemulator:attr/actionButtonStyle" value="@com.xiaoji.gamesirnsemulator:style/Widget.AppCompat.ActionButton" />
+        <enum name="com.xiaoji.gamesirnsemulator:attr/actionOverflowButtonStyle" value="@com.xiaoji.gamesirnsemulator:style/Widget.AppCompat.ActionButton.Overflow" />
+        <enum name="com.xiaoji.gamesirnsemulator:attr/background" value="@ResourceId_0x00000000" />
+        <enum name="com.xiaoji.gamesirnsemulator:attr/backgroundSplit" value="@ResourceId_0x00000000" />
+        <enum name="com.xiaoji.gamesirnsemulator:attr/backgroundStacked" value="@ResourceId_0x00000000" />
+        <enum name="com.xiaoji.gamesirnsemulator:attr/contentInsetEnd" value="@com.xiaoji.gamesirnsemulator:dimen/abc_action_bar_content_inset_material" />
+        <enum name="com.xiaoji.gamesirnsemulator:attr/contentInsetStart" value="@com.xiaoji.gamesirnsemulator:dimen/abc_action_bar_content_inset_material" />
+        <enum name="com.xiaoji.gamesirnsemulator:attr/contentInsetStartWithNavigation" value="@com.xiaoji.gamesirnsemulator:dimen/abc_action_bar_content_inset_with_nav" />
+        <enum name="com.xiaoji.gamesirnsemulator:attr/displayOptions" value="0x8" />
+        <enum name="com.xiaoji.gamesirnsemulator:attr/divider" value="?com.xiaoji.gamesirnsemulator:attr/dividerVertical" />
+        <enum name="com.xiaoji.gamesirnsemulator:attr/elevation" value="@com.xiaoji.gamesirnsemulator:dimen/abc_action_bar_elevation_material" />
+        <enum name="com.xiaoji.gamesirnsemulator:attr/height" value="?com.xiaoji.gamesirnsemulator:attr/actionBarSize" />
+        <enum name="com.xiaoji.gamesirnsemulator:attr/popupTheme" value="?com.xiaoji.gamesirnsemulator:attr/actionBarPopupTheme" />
+        <enum name="com.xiaoji.gamesirnsemulator:attr/subtitleTextStyle" value="@com.xiaoji.gamesirnsemulator:style/TextAppearance.AppCompat.Widget.ActionBar.Subtitle" />
+        <enum name="com.xiaoji.gamesirnsemulator:attr/titleTextStyle" value="@com.xiaoji.gamesirnsemulator:style/TextAppearance.AppCompat.Widget.ActionBar.Title" />
+    </style>
+    <style name="Base.Widget.AppCompat.ActionBar.Solid">
+        <enum name="com.xiaoji.gamesirnsemulator:attr/background" value="?com.xiaoji.gamesirnsemulator:attr/colorPrimary" />
+        <enum name="com.xiaoji.gamesirnsemulator:attr/backgroundSplit" value="?com.xiaoji.gamesirnsemulator:attr/colorPrimary" />
+        <enum name="com.xiaoji.gamesirnsemulator:attr/backgroundStacked" value="?com.xiaoji.gamesirnsemulator:attr/colorPrimary" />
+    </style>
+    <style name="Base.Widget.AppCompat.ActionBar.TabBar">
+        <enum name="com.xiaoji.gamesirnsemulator:attr/divider" value="?com.xiaoji.gamesirnsemulator:attr/actionBarDivider" />
+        <enum name="com.xiaoji.gamesirnsemulator:attr/dividerPadding" value="8.0dp" />
+        <enum name="com.xiaoji.gamesirnsemulator:attr/showDividers" value="0x2" />
+    </style>
+    <style name="Base.Widget.AppCompat.ActionBar.TabText"></style>
+    <style name="Base.Widget.AppCompat.ActionBar.TabView"></style>
+    <style name="Base.Widget.AppCompat.ActionButton"></style>
+    <style name="Base.Widget.AppCompat.ActionButton.CloseMode">
+        <enum name="android:attr/minWidth" value="56.0dp" />
+    </style>
+    <style name="Base.Widget.AppCompat.ActionButton.Overflow"></style>
+    <style name="Base.Widget.AppCompat.ActionMode">
+        <enum name="com.xiaoji.gamesirnsemulator:attr/background" value="?com.xiaoji.gamesirnsemulator:attr/actionModeBackground" />
+        <enum name="com.xiaoji.gamesirnsemulator:attr/backgroundSplit" value="?com.xiaoji.gamesirnsemulator:attr/actionModeSplitBackground" />
+        <enum name="com.xiaoji.gamesirnsemulator:attr/closeItemLayout" value="@com.xiaoji.gamesirnsemulator:layout/abc_action_mode_close_item_material" />
+        <enum name="com.xiaoji.gamesirnsemulator:attr/height" value="?com.xiaoji.gamesirnsemulator:attr/actionBarSize" />
+        <enum name="com.xiaoji.gamesirnsemulator:attr/subtitleTextStyle" value="@com.xiaoji.gamesirnsemulator:style/TextAppearance.AppCompat.Widget.ActionMode.Subtitle" />
+        <enum name="com.xiaoji.gamesirnsemulator:attr/titleTextStyle" value="@com.xiaoji.gamesirnsemulator:style/TextAppearance.AppCompat.Widget.ActionMode.Title" />
+    </style>
+    <style name="Base.Widget.AppCompat.ActivityChooserView">
+        <enum name="android:attr/gravity" value="0x11" />
+        <enum name="android:attr/background" value="@com.xiaoji.gamesirnsemulator:drawable/abc_ab_share_pack_mtrl_alpha" />
+        <enum name="com.xiaoji.gamesirnsemulator:attr/divider" value="?com.xiaoji.gamesirnsemulator:attr/dividerVertical" />
+        <enum name="com.xiaoji.gamesirnsemulator:attr/dividerPadding" value="6.0dp" />
+        <enum name="com.xiaoji.gamesirnsemulator:attr/showDividers" value="0x2" />
+    </style>
+    <style name="Base.Widget.AppCompat.AutoCompleteTextView">
+        <enum name="android:attr/background" value="?com.xiaoji.gamesirnsemulator:attr/editTextBackground" />
+    </style>
+    <style name="Base.Widget.AppCompat.Button"></style>
+    <style name="Base.Widget.AppCompat.Button.Borderless"></style>
+    <style name="Base.Widget.AppCompat.Button.Borderless.Colored"></style>
+    <style name="Base.Widget.AppCompat.Button.ButtonBar.AlertDialog">
+        <enum name="android:attr/minWidth" value="64.0dp" />
+        <enum name="android:attr/minHeight" value="@com.xiaoji.gamesirnsemulator:dimen/abc_alert_dialog_button_bar_height" />
+    </style>
+    <style name="Base.Widget.AppCompat.Button.Colored"></style>
+    <style name="Base.Widget.AppCompat.Button.Small"></style>
+    <style name="Base.Widget.AppCompat.ButtonBar"></style>
+    <style name="Base.Widget.AppCompat.ButtonBar.AlertDialog"></style>
+    <style name="Base.Widget.AppCompat.CompoundButton.CheckBox"></style>
+    <style name="Base.Widget.AppCompat.CompoundButton.RadioButton"></style>
+    <style name="Base.Widget.AppCompat.CompoundButton.Switch">
+        <enum name="android:attr/background" value="?com.xiaoji.gamesirnsemulator:attr/controlBackground" />
+        <enum name="android:attr/textOn" value="@com.xiaoji.gamesirnsemulator:string/abc_capital_on" />
+        <enum name="android:attr/textOff" value="@com.xiaoji.gamesirnsemulator:string/abc_capital_off" />
+        <enum name="android:attr/thumb" value="@com.xiaoji.gamesirnsemulator:drawable/abc_switch_thumb_material" />
+        <enum name="com.xiaoji.gamesirnsemulator:attr/showText" value="false" />
+        <enum name="com.xiaoji.gamesirnsemulator:attr/switchPadding" value="@com.xiaoji.gamesirnsemulator:dimen/abc_switch_padding" />
+        <enum name="com.xiaoji.gamesirnsemulator:attr/switchTextAppearance" value="@com.xiaoji.gamesirnsemulator:style/TextAppearance.AppCompat.Widget.Switch" />
+        <enum name="com.xiaoji.gamesirnsemulator:attr/track" value="@com.xiaoji.gamesirnsemulator:drawable/abc_switch_track_mtrl_alpha" />
+    </style>
+    <style name="Base.Widget.AppCompat.DrawerArrowToggle">
+        <enum name="com.xiaoji.gamesirnsemulator:attr/barLength" value="18.0dp" />
+        <enum name="com.xiaoji.gamesirnsemulator:attr/drawableSize" value="24.0dp" />
+        <enum name="com.xiaoji.gamesirnsemulator:attr/gapBetweenBars" value="3.0dp" />
+    </style>
+    <style name="Base.Widget.AppCompat.DrawerArrowToggle.Common">
+        <enum name="com.xiaoji.gamesirnsemulator:attr/arrowHeadLength" value="8.0dp" />
+        <enum name="com.xiaoji.gamesirnsemulator:attr/arrowShaftLength" value="16.0dp" />
+        <enum name="com.xiaoji.gamesirnsemulator:attr/color" value="?android:attr/textColorSecondary" />
+        <enum name="com.xiaoji.gamesirnsemulator:attr/spinBars" value="true" />
+        <enum name="com.xiaoji.gamesirnsemulator:attr/thickness" value="2.0dp" />
+    </style>
+    <style name="Base.Widget.AppCompat.DropDownItem.Spinner"></style>
+    <style name="Base.Widget.AppCompat.EditText">
+        <enum name="android:attr/breakStrategy" value="0" />
+        <enum name="android:attr/hyphenationFrequency" value="0" />
+    </style>
+    <style name="Base.Widget.AppCompat.ImageButton"></style>
+    <style name="Base.Widget.AppCompat.Light.ActionBar">
+        <enum name="com.xiaoji.gamesirnsemulator:attr/actionButtonStyle" value="@com.xiaoji.gamesirnsemulator:style/Widget.AppCompat.Light.ActionButton" />
+        <enum name="com.xiaoji.gamesirnsemulator:attr/actionOverflowButtonStyle" value="@com.xiaoji.gamesirnsemulator:style/Widget.AppCompat.Light.ActionButton.Overflow" />
+    </style>
+    <style name="Base.Widget.AppCompat.Light.ActionBar.Solid">
+        <enum name="com.xiaoji.gamesirnsemulator:attr/background" value="?com.xiaoji.gamesirnsemulator:attr/colorPrimary" />
+        <enum name="com.xiaoji.gamesirnsemulator:attr/backgroundSplit" value="?com.xiaoji.gamesirnsemulator:attr/colorPrimary" />
+        <enum name="com.xiaoji.gamesirnsemulator:attr/backgroundStacked" value="?com.xiaoji.gamesirnsemulator:attr/colorPrimary" />
+    </style>
+    <style name="Base.Widget.AppCompat.Light.ActionBar.TabBar"></style>
+    <style name="Base.Widget.AppCompat.Light.ActionBar.TabText"></style>
+    <style name="Base.Widget.AppCompat.Light.ActionBar.TabText.Inverse"></style>
+    <style name="Base.Widget.AppCompat.Light.ActionBar.TabView"></style>
+    <style name="Base.Widget.AppCompat.Light.PopupMenu"></style>
+    <style name="Base.Widget.AppCompat.Light.PopupMenu.Overflow">
+        <enum name="android:attr/dropDownHorizontalOffset" value="-4.0dp" />
+        <enum name="android:attr/overlapAnchor" value="true" />
+    </style>
+    <style name="Base.Widget.AppCompat.ListMenuView">
+        <enum name="com.xiaoji.gamesirnsemulator:attr/subMenuArrow" value="@com.xiaoji.gamesirnsemulator:drawable/abc_ic_arrow_drop_right_black_24dp" />
+    </style>
+    <style name="Base.Widget.AppCompat.ListPopupWindow"></style>
+    <style name="Base.Widget.AppCompat.ListView"></style>
+    <style name="Base.Widget.AppCompat.ListView.DropDown"></style>
+    <style name="Base.Widget.AppCompat.ListView.Menu"></style>
+    <style name="Base.Widget.AppCompat.PopupMenu"></style>
+    <style name="Base.Widget.AppCompat.PopupMenu.Overflow">
+        <enum name="android:attr/dropDownHorizontalOffset" value="-4.0dp" />
+        <enum name="android:attr/overlapAnchor" value="true" />
+    </style>
+    <style name="Base.Widget.AppCompat.PopupWindow"></style>
+    <style name="Base.Widget.AppCompat.ProgressBar"></style>
+    <style name="Base.Widget.AppCompat.ProgressBar.Horizontal"></style>
+    <style name="Base.Widget.AppCompat.RatingBar"></style>
+    <style name="Base.Widget.AppCompat.RatingBar.Indicator"></style>
+    <style name="Base.Widget.AppCompat.RatingBar.Small"></style>
+    <style name="Base.Widget.AppCompat.SearchView">
+        <enum name="com.xiaoji.gamesirnsemulator:attr/closeIcon" value="@com.xiaoji.gamesirnsemulator:drawable/abc_ic_clear_material" />
+        <enum name="com.xiaoji.gamesirnsemulator:attr/commitIcon" value="@com.xiaoji.gamesirnsemulator:drawable/abc_ic_commit_search_api_mtrl_alpha" />
+        <enum name="com.xiaoji.gamesirnsemulator:attr/goIcon" value="@com.xiaoji.gamesirnsemulator:drawable/abc_ic_go_search_api_material" />
+        <enum name="com.xiaoji.gamesirnsemulator:attr/layout" value="@com.xiaoji.gamesirnsemulator:layout/abc_search_view" />
+        <enum name="com.xiaoji.gamesirnsemulator:attr/queryBackground" value="@com.xiaoji.gamesirnsemulator:drawable/abc_textfield_search_material" />
+        <enum name="com.xiaoji.gamesirnsemulator:attr/searchHintIcon" value="@com.xiaoji.gamesirnsemulator:drawable/abc_ic_search_api_material" />
+        <enum name="com.xiaoji.gamesirnsemulator:attr/searchIcon" value="@com.xiaoji.gamesirnsemulator:drawable/abc_ic_search_api_material" />
+        <enum name="com.xiaoji.gamesirnsemulator:attr/submitBackground" value="@com.xiaoji.gamesirnsemulator:drawable/abc_textfield_search_material" />
+        <enum name="com.xiaoji.gamesirnsemulator:attr/suggestionRowLayout" value="@com.xiaoji.gamesirnsemulator:layout/abc_search_dropdown_item_icons_2line" />
+        <enum name="com.xiaoji.gamesirnsemulator:attr/voiceIcon" value="@com.xiaoji.gamesirnsemulator:drawable/abc_ic_voice_search_api_material" />
+    </style>
+    <style name="Base.Widget.AppCompat.SearchView.ActionBar">
+        <enum name="com.xiaoji.gamesirnsemulator:attr/defaultQueryHint" value="@com.xiaoji.gamesirnsemulator:string/abc_search_hint" />
+        <enum name="com.xiaoji.gamesirnsemulator:attr/queryBackground" value="@ResourceId_0x00000000" />
+        <enum name="com.xiaoji.gamesirnsemulator:attr/searchHintIcon" value="@ResourceId_0x00000000" />
+        <enum name="com.xiaoji.gamesirnsemulator:attr/submitBackground" value="@ResourceId_0x00000000" />
+    </style>
+    <style name="Base.Widget.AppCompat.SeekBar"></style>
+    <style name="Base.Widget.AppCompat.SeekBar.Discrete">
+        <enum name="com.xiaoji.gamesirnsemulator:attr/tickMark" value="@com.xiaoji.gamesirnsemulator:drawable/abc_seekbar_tick_mark_material" />
+    </style>
+    <style name="Base.Widget.AppCompat.Spinner"></style>
+    <style name="Base.Widget.AppCompat.Spinner.Underlined"></style>
+    <style name="Base.Widget.AppCompat.TextView">
+        <enum name="android:attr/breakStrategy" value="1" />
+        <enum name="android:attr/hyphenationFrequency" value="0" />
+    </style>
+    <style name="Base.Widget.AppCompat.TextView.SpinnerItem"></style>
+    <style name="Base.Widget.AppCompat.Toolbar"></style>
+    <style name="Base.Widget.AppCompat.Toolbar.Button.Navigation"></style>
+    <style name="CommonDialog">
+        <enum name="android:attr/windowBackground" value="@com.xiaoji.gamesirnsemulator:drawable/smssdk_dialog_bg" />
+        <enum name="android:attr/windowNoTitle" value="true" />
+    </style>
+    <style name="Dialog_Common">
+        <enum name="android:attr/windowBackground" value="@android:color/transparent" />
+        <enum name="android:attr/windowFrame" value="@ResourceId_0x00000000" />
+        <enum name="android:attr/windowNoTitle" value="true" />
+        <enum name="android:attr/windowIsFloating" value="true" />
+        <enum name="android:attr/windowIsTranslucent" value="false" />
+        <enum name="android:attr/background" value="@android:color/transparent" />
+        <enum name="android:attr/backgroundDimEnabled" value="true" />
+    </style>
+    <style name="MD_ActionButton">
+        <enum name="android:attr/layout_gravity" value="0x10" />
+        <enum name="android:attr/layout_width" value="-2" />
+        <enum name="android:attr/layout_height" value="@com.xiaoji.gamesirnsemulator:dimen/md_button_height" />
+    </style>
+    <style name="MD_ActionButton.Text">
+        <enum name="android:attr/textSize" value="@com.xiaoji.gamesirnsemulator:dimen/md_button_textsize" />
+        <enum name="android:attr/gravity" value="0x11" />
+        <enum name="android:attr/layout_gravity" value="0x10" />
+        <enum name="android:attr/background" value="@ResourceId_0x00000000" />
+        <enum name="android:attr/paddingLeft" value="@com.xiaoji.gamesirnsemulator:dimen/md_button_textpadding_horizontal" />
+        <enum name="android:attr/paddingRight" value="@com.xiaoji.gamesirnsemulator:dimen/md_button_textpadding_horizontal" />
+        <enum name="android:attr/minWidth" value="@com.xiaoji.gamesirnsemulator:dimen/md_button_min_width" />
+        <enum name="android:attr/singleLine" value="true" />
+        <enum name="android:attr/stateListAnimator" value="@ResourceId_0x00000000" />
+    </style>
+    <style name="MD_ActionButtonStacked">
+        <enum name="android:attr/paddingLeft" value="@com.xiaoji.gamesirnsemulator:dimen/md_button_padding_horizontal_internalexternal" />
+        <enum name="android:attr/paddingRight" value="@com.xiaoji.gamesirnsemulator:dimen/md_button_padding_horizontal_internalexternal" />
+        <enum name="android:attr/layout_width" value="-1" />
+        <enum name="android:attr/paddingStart" value="@com.xiaoji.gamesirnsemulator:dimen/md_button_padding_horizontal_internalexternal" />
+        <enum name="android:attr/paddingEnd" value="@com.xiaoji.gamesirnsemulator:dimen/md_button_padding_horizontal_internalexternal" />
+    </style>
+    <style name="MD_Dark">
+        <enum name="android:attr/windowMinWidthMajor" value="@com.xiaoji.gamesirnsemulator:dimen/abc_dialog_min_width_major" />
+        <enum name="android:attr/windowMinWidthMinor" value="@com.xiaoji.gamesirnsemulator:dimen/abc_dialog_min_width_minor" />
+        <enum name="com.xiaoji.gamesirnsemulator:attr/md_btn_negative_selector" value="@com.xiaoji.gamesirnsemulator:drawable/md_btn_selector_ripple_dark" />
+        <enum name="com.xiaoji.gamesirnsemulator:attr/md_btn_neutral_selector" value="@com.xiaoji.gamesirnsemulator:drawable/md_btn_selector_ripple_dark" />
+        <enum name="com.xiaoji.gamesirnsemulator:attr/md_btn_positive_selector" value="@com.xiaoji.gamesirnsemulator:drawable/md_btn_selector_ripple_dark" />
+        <enum name="com.xiaoji.gamesirnsemulator:attr/md_btn_stacked_selector" value="?android:attr/selectableItemBackground" />
+        <enum name="com.xiaoji.gamesirnsemulator:attr/md_divider" value="@com.xiaoji.gamesirnsemulator:color/md_divider_white" />
+        <enum name="com.xiaoji.gamesirnsemulator:attr/md_list_selector" value="?android:attr/selectableItemBackground" />
+    </style>
+    <style name="MD_Light">
+        <enum name="android:attr/windowMinWidthMajor" value="@com.xiaoji.gamesirnsemulator:dimen/abc_dialog_min_width_major" />
+        <enum name="android:attr/windowMinWidthMinor" value="@com.xiaoji.gamesirnsemulator:dimen/abc_dialog_min_width_minor" />
+        <enum name="com.xiaoji.gamesirnsemulator:attr/md_btn_negative_selector" value="@com.xiaoji.gamesirnsemulator:drawable/md_btn_selector_ripple" />
+        <enum name="com.xiaoji.gamesirnsemulator:attr/md_btn_neutral_selector" value="@com.xiaoji.gamesirnsemulator:drawable/md_btn_selector_ripple" />
+        <enum name="com.xiaoji.gamesirnsemulator:attr/md_btn_positive_selector" value="@com.xiaoji.gamesirnsemulator:drawable/md_btn_selector_ripple" />
+        <enum name="com.xiaoji.gamesirnsemulator:attr/md_btn_stacked_selector" value="?android:attr/selectableItemBackground" />
+        <enum name="com.xiaoji.gamesirnsemulator:attr/md_divider" value="@com.xiaoji.gamesirnsemulator:color/md_divider_black" />
+        <enum name="com.xiaoji.gamesirnsemulator:attr/md_list_selector" value="?android:attr/selectableItemBackground" />
+    </style>
+    <style name="MD_WindowAnimation">
+        <enum name="android:attr/windowEnterAnimation" value="@com.xiaoji.gamesirnsemulator:anim/popup_enter" />
+        <enum name="android:attr/windowExitAnimation" value="@com.xiaoji.gamesirnsemulator:anim/popup_exit" />
+    </style>
+    <style name="MobShellTheme">
+        <enum name="android:attr/windowBackground" value="@android:color/transparent" />
+        <enum name="android:attr/windowNoTitle" value="true" />
+        <enum name="android:attr/windowIsTranslucent" value="true" />
+        <enum name="android:attr/windowContentOverlay" value="@ResourceId_0x00000000" />
+        <enum name="android:attr/windowAnimationStyle" value="@android:style/Animation.Activity" />
+        <enum name="android:attr/colorBackgroundCacheHint" value="@ResourceId_0x00000000" />
+    </style>
+    <style name="MyDialogTheme">
+        <enum name="android:attr/windowBackground" value="@com.xiaoji.gamesirnsemulator:color/colorPrimary" />
+        <enum name="android:attr/windowNoTitle" value="true" />
+        <enum name="android:attr/windowIsFloating" value="true" />
+        <enum name="android:attr/windowContentOverlay" value="@ResourceId_0x00000000" />
+        <enum name="android:attr/scrollHorizontally" value="true" />
+        <enum name="android:attr/windowFullscreen" value="true" />
+    </style>
+    <style name="Platform.AppCompat"></style>
+    <style name="Platform.AppCompat.Light"></style>
+    <style name="Platform.ThemeOverlay.AppCompat">
+        <enum name="android:attr/colorControlNormal" value="?com.xiaoji.gamesirnsemulator:attr/colorControlNormal" />
+        <enum name="android:attr/colorControlActivated" value="?com.xiaoji.gamesirnsemulator:attr/colorControlActivated" />
+        <enum name="android:attr/colorButtonNormal" value="?com.xiaoji.gamesirnsemulator:attr/colorButtonNormal" />
+        <enum name="android:attr/colorControlHighlight" value="?com.xiaoji.gamesirnsemulator:attr/colorControlHighlight" />
+        <enum name="android:attr/colorPrimary" value="?com.xiaoji.gamesirnsemulator:attr/colorPrimary" />
+        <enum name="android:attr/colorPrimaryDark" value="?com.xiaoji.gamesirnsemulator:attr/colorPrimaryDark" />
+        <enum name="android:attr/colorAccent" value="?com.xiaoji.gamesirnsemulator:attr/colorAccent" />
+    </style>
+    <style name="Platform.ThemeOverlay.AppCompat.Dark"></style>
+    <style name="Platform.ThemeOverlay.AppCompat.Light"></style>
+    <style name="Platform.V21.AppCompat">
+        <enum name="android:attr/textColorHintInverse" value="@com.xiaoji.gamesirnsemulator:color/abc_hint_foreground_material_light" />
+        <enum name="android:attr/textColorHint" value="@com.xiaoji.gamesirnsemulator:color/abc_hint_foreground_material_dark" />
+        <enum name="android:attr/textColorLink" value="?android:attr/colorAccent" />
+        <enum name="android:attr/buttonBarStyle" value="?com.xiaoji.gamesirnsemulator:attr/buttonBarStyle" />
+        <enum name="android:attr/buttonBarButtonStyle" value="?com.xiaoji.gamesirnsemulator:attr/buttonBarButtonStyle" />
+        <enum name="android:attr/textColorLinkInverse" value="?android:attr/colorAccent" />
+    </style>
+    <style name="Platform.V21.AppCompat.Light">
+        <enum name="android:attr/textColorHintInverse" value="@com.xiaoji.gamesirnsemulator:color/abc_hint_foreground_material_dark" />
+        <enum name="android:attr/textColorHint" value="@com.xiaoji.gamesirnsemulator:color/abc_hint_foreground_material_light" />
+        <enum name="android:attr/textColorLink" value="?android:attr/colorAccent" />
+        <enum name="android:attr/buttonBarStyle" value="?com.xiaoji.gamesirnsemulator:attr/buttonBarStyle" />
+        <enum name="android:attr/buttonBarButtonStyle" value="?com.xiaoji.gamesirnsemulator:attr/buttonBarButtonStyle" />
+        <enum name="android:attr/textColorLinkInverse" value="?android:attr/colorAccent" />
+    </style>
+    <style name="Platform.V25.AppCompat"></style>
+    <style name="Platform.V25.AppCompat.Light"></style>
+    <style name="Platform.Widget.AppCompat.Spinner"></style>
+    <style name="RtlOverlay.DialogWindowTitle.AppCompat">
+        <enum name="android:attr/textAlignment" value="5" />
+    </style>
+    <style name="RtlOverlay.Widget.AppCompat.ActionBar.TitleItem">
+        <enum name="android:attr/layout_gravity" value="0x800013" />
+        <enum name="android:attr/paddingEnd" value="8.0dp" />
+    </style>
+    <style name="RtlOverlay.Widget.AppCompat.DialogTitle.Icon">
+        <enum name="android:attr/layout_marginEnd" value="8.0dp" />
+    </style>
+    <style name="RtlOverlay.Widget.AppCompat.PopupMenuItem">
+        <enum name="android:attr/paddingEnd" value="16.0dp" />
+    </style>
+    <style name="RtlOverlay.Widget.AppCompat.PopupMenuItem.InternalGroup">
+        <enum name="android:attr/layout_marginStart" value="16.0dp" />
+    </style>
+    <style name="RtlOverlay.Widget.AppCompat.PopupMenuItem.Shortcut">
+        <enum name="android:attr/textAlignment" value="6" />
+        <enum name="android:attr/layout_marginStart" value="16.0dp" />
+    </style>
+    <style name="RtlOverlay.Widget.AppCompat.PopupMenuItem.SubmenuArrow">
+        <enum name="android:attr/layout_marginStart" value="8.0dp" />
+    </style>
+    <style name="RtlOverlay.Widget.AppCompat.PopupMenuItem.Text">
+        <enum name="android:attr/textAlignment" value="5" />
+        <enum name="android:attr/layout_alignParentStart" value="true" />
+    </style>
+    <style name="RtlOverlay.Widget.AppCompat.PopupMenuItem.Title">
+        <enum name="android:attr/textAlignment" value="5" />
+        <enum name="android:attr/layout_marginStart" value="16.0dp" />
+    </style>
+    <style name="RtlOverlay.Widget.AppCompat.Search.DropDown">
+        <enum name="android:attr/paddingStart" value="@com.xiaoji.gamesirnsemulator:dimen/abc_dropdownitem_text_padding_left" />
+        <enum name="android:attr/paddingEnd" value="4.0dp" />
+    </style>
+    <style name="RtlOverlay.Widget.AppCompat.Search.DropDown.Icon1">
+        <enum name="android:attr/layout_alignParentStart" value="true" />
+    </style>
+    <style name="RtlOverlay.Widget.AppCompat.Search.DropDown.Icon2">
+        <enum name="android:attr/layout_toStartOf" value="@com.xiaoji.gamesirnsemulator:id/edit_query" />
+    </style>
+    <style name="RtlOverlay.Widget.AppCompat.Search.DropDown.Query">
+        <enum name="android:attr/layout_alignParentEnd" value="true" />
+    </style>
+    <style name="RtlOverlay.Widget.AppCompat.Search.DropDown.Text">
+        <enum name="android:attr/layout_toStartOf" value="@android:id/icon2" />
+        <enum name="android:attr/layout_toEndOf" value="@android:id/icon1" />
+    </style>
+    <style name="RtlOverlay.Widget.AppCompat.SearchView.MagIcon">
+        <enum name="android:attr/layout_marginStart" value="@com.xiaoji.gamesirnsemulator:dimen/abc_dropdownitem_text_padding_left" />
+    </style>
+    <style name="RtlUnderlay.Widget.AppCompat.ActionButton">
+        <enum name="android:attr/paddingStart" value="12.0dp" />
+        <enum name="android:attr/paddingEnd" value="12.0dp" />
+    </style>
+    <style name="RtlUnderlay.Widget.AppCompat.ActionButton.Overflow">
+        <enum name="android:attr/paddingStart" value="@com.xiaoji.gamesirnsemulator:dimen/abc_action_bar_overflow_padding_start_material" />
+        <enum name="android:attr/paddingEnd" value="@com.xiaoji.gamesirnsemulator:dimen/abc_action_bar_overflow_padding_end_material" />
+    </style>
+    <style name="Splash">
+        <enum name="android:attr/windowBackground" value="@android:color/transparent" />
+        <enum name="android:attr/windowIsTranslucent" value="false" />
+        <enum name="android:attr/windowDisablePreview" value="true" />
+        <enum name="android:attr/colorBackgroundCacheHint" value="@ResourceId_0x00000000" />
+    </style>
+    <style name="TextAppearance.AppCompat"></style>
+    <style name="TextAppearance.AppCompat.Body1"></style>
+    <style name="TextAppearance.AppCompat.Body2"></style>
+    <style name="TextAppearance.AppCompat.Button"></style>
+    <style name="TextAppearance.AppCompat.Caption"></style>
+    <style name="TextAppearance.AppCompat.Display1"></style>
+    <style name="TextAppearance.AppCompat.Display2"></style>
+    <style name="TextAppearance.AppCompat.Display3"></style>
+    <style name="TextAppearance.AppCompat.Display4"></style>
+    <style name="TextAppearance.AppCompat.Headline"></style>
+    <style name="TextAppearance.AppCompat.Inverse"></style>
+    <style name="TextAppearance.AppCompat.Large"></style>
+    <style name="TextAppearance.AppCompat.Large.Inverse"></style>
+    <style name="TextAppearance.AppCompat.Light.SearchResult.Subtitle"></style>
+    <style name="TextAppearance.AppCompat.Light.SearchResult.Title"></style>
+    <style name="TextAppearance.AppCompat.Light.Widget.PopupMenu.Large"></style>
+    <style name="TextAppearance.AppCompat.Light.Widget.PopupMenu.Small"></style>
+    <style name="TextAppearance.AppCompat.Medium"></style>
+    <style name="TextAppearance.AppCompat.Medium.Inverse"></style>
+    <style name="TextAppearance.AppCompat.Menu"></style>
+    <style name="TextAppearance.AppCompat.SearchResult.Subtitle"></style>
+    <style name="TextAppearance.AppCompat.SearchResult.Title"></style>
+    <style name="TextAppearance.AppCompat.Small"></style>
+    <style name="TextAppearance.AppCompat.Small.Inverse"></style>
+    <style name="TextAppearance.AppCompat.Subhead"></style>
+    <style name="TextAppearance.AppCompat.Subhead.Inverse"></style>
+    <style name="TextAppearance.AppCompat.Title"></style>
+    <style name="TextAppearance.AppCompat.Title.Inverse"></style>
+    <style name="TextAppearance.AppCompat.Tooltip">
+        <enum name="android:attr/textSize" value="14.0sp" />
+        <enum name="android:attr/fontFamily" value="sans-serif" />
+    </style>
+    <style name="TextAppearance.AppCompat.Widget.ActionBar.Menu"></style>
+    <style name="TextAppearance.AppCompat.Widget.ActionBar.Subtitle"></style>
+    <style name="TextAppearance.AppCompat.Widget.ActionBar.Subtitle.Inverse"></style>
+    <style name="TextAppearance.AppCompat.Widget.ActionBar.Title"></style>
+    <style name="TextAppearance.AppCompat.Widget.ActionBar.Title.Inverse"></style>
+    <style name="TextAppearance.AppCompat.Widget.ActionMode.Subtitle"></style>
+    <style name="TextAppearance.AppCompat.Widget.ActionMode.Subtitle.Inverse"></style>
+    <style name="TextAppearance.AppCompat.Widget.ActionMode.Title"></style>
+    <style name="TextAppearance.AppCompat.Widget.ActionMode.Title.Inverse"></style>
+    <style name="TextAppearance.AppCompat.Widget.Button"></style>
+    <style name="TextAppearance.AppCompat.Widget.Button.Borderless.Colored"></style>
+    <style name="TextAppearance.AppCompat.Widget.Button.Colored"></style>
+    <style name="TextAppearance.AppCompat.Widget.Button.Inverse"></style>
+    <style name="TextAppearance.AppCompat.Widget.DropDownItem"></style>
+    <style name="TextAppearance.AppCompat.Widget.PopupMenu.Header"></style>
+    <style name="TextAppearance.AppCompat.Widget.PopupMenu.Large"></style>
+    <style name="TextAppearance.AppCompat.Widget.PopupMenu.Small"></style>
+    <style name="TextAppearance.AppCompat.Widget.Switch"></style>
+    <style name="TextAppearance.AppCompat.Widget.TextView.SpinnerItem"></style>
+    <style name="TextAppearance.Compat.Notification"></style>
+    <style name="TextAppearance.Compat.Notification.Info"></style>
+    <style name="TextAppearance.Compat.Notification.Info.Media"></style>
+    <style name="TextAppearance.Compat.Notification.Line2"></style>
+    <style name="TextAppearance.Compat.Notification.Line2.Media"></style>
+    <style name="TextAppearance.Compat.Notification.Media"></style>
+    <style name="TextAppearance.Compat.Notification.Time"></style>
+    <style name="TextAppearance.Compat.Notification.Time.Media"></style>
+    <style name="TextAppearance.Compat.Notification.Title"></style>
+    <style name="TextAppearance.Compat.Notification.Title.Media"></style>
+    <style name="TextAppearance.Widget.AppCompat.ExpandedMenu.Item"></style>
+    <style name="TextAppearance.Widget.AppCompat.Toolbar.Subtitle"></style>
+    <style name="TextAppearance.Widget.AppCompat.Toolbar.Title"></style>
+    <style name="Theme.AppCompat"></style>
+    <style name="Theme.AppCompat.CompactMenu"></style>
+    <style name="Theme.AppCompat.DayNight"></style>
+    <style name="Theme.AppCompat.DayNight.DarkActionBar"></style>
+    <style name="Theme.AppCompat.DayNight.Dialog"></style>
+    <style name="Theme.AppCompat.DayNight.Dialog.Alert"></style>
+    <style name="Theme.AppCompat.DayNight.Dialog.MinWidth"></style>
+    <style name="Theme.AppCompat.DayNight.DialogWhenLarge"></style>
+    <style name="Theme.AppCompat.DayNight.NoActionBar"></style>
+    <style name="Theme.AppCompat.Dialog"></style>
+    <style name="Theme.AppCompat.Dialog.Alert"></style>
+    <style name="Theme.AppCompat.Dialog.MinWidth"></style>
+    <style name="Theme.AppCompat.DialogWhenLarge"></style>
+    <style name="Theme.AppCompat.Light"></style>
+    <style name="Theme.AppCompat.Light.DarkActionBar"></style>
+    <style name="Theme.AppCompat.Light.Dialog"></style>
+    <style name="Theme.AppCompat.Light.Dialog.Alert"></style>
+    <style name="Theme.AppCompat.Light.Dialog.MinWidth"></style>
+    <style name="Theme.AppCompat.Light.DialogWhenLarge"></style>
+    <style name="Theme.AppCompat.Light.NoActionBar">
+        <enum name="com.xiaoji.gamesirnsemulator:attr/windowActionBar" value="false" />
+        <enum name="com.xiaoji.gamesirnsemulator:attr/windowNoTitle" value="true" />
+    </style>
+    <style name="Theme.AppCompat.NoActionBar">
+        <enum name="com.xiaoji.gamesirnsemulator:attr/windowActionBar" value="false" />
+        <enum name="com.xiaoji.gamesirnsemulator:attr/windowNoTitle" value="true" />
+    </style>
+    <style name="ThemeOverlay.AppCompat"></style>
+    <style name="ThemeOverlay.AppCompat.ActionBar"></style>
+    <style name="ThemeOverlay.AppCompat.Dark"></style>
+    <style name="ThemeOverlay.AppCompat.Dark.ActionBar"></style>
+    <style name="ThemeOverlay.AppCompat.DayNight"></style>
+    <style name="ThemeOverlay.AppCompat.DayNight.ActionBar">
+        <enum name="com.xiaoji.gamesirnsemulator:attr/colorControlNormal" value="?android:attr/textColorPrimary" />
+        <enum name="com.xiaoji.gamesirnsemulator:attr/searchViewStyle" value="@com.xiaoji.gamesirnsemulator:style/Widget.AppCompat.SearchView.ActionBar" />
+    </style>
+    <style name="ThemeOverlay.AppCompat.Dialog"></style>
+    <style name="ThemeOverlay.AppCompat.Dialog.Alert"></style>
+    <style name="ThemeOverlay.AppCompat.Light"></style>
+    <style name="Widget.AppCompat.ActionBar"></style>
+    <style name="Widget.AppCompat.ActionBar.Solid"></style>
+    <style name="Widget.AppCompat.ActionBar.TabBar"></style>
+    <style name="Widget.AppCompat.ActionBar.TabText"></style>
+    <style name="Widget.AppCompat.ActionBar.TabView"></style>
+    <style name="Widget.AppCompat.ActionButton"></style>
+    <style name="Widget.AppCompat.ActionButton.CloseMode"></style>
+    <style name="Widget.AppCompat.ActionButton.Overflow"></style>
+    <style name="Widget.AppCompat.ActionMode"></style>
+    <style name="Widget.AppCompat.ActivityChooserView"></style>
+    <style name="Widget.AppCompat.AutoCompleteTextView"></style>
+    <style name="Widget.AppCompat.Button"></style>
+    <style name="Widget.AppCompat.Button.Borderless"></style>
+    <style name="Widget.AppCompat.Button.Borderless.Colored"></style>
+    <style name="Widget.AppCompat.Button.ButtonBar.AlertDialog"></style>
+    <style name="Widget.AppCompat.Button.Colored"></style>
+    <style name="Widget.AppCompat.Button.Small"></style>
+    <style name="Widget.AppCompat.ButtonBar"></style>
+    <style name="Widget.AppCompat.ButtonBar.AlertDialog"></style>
+    <style name="Widget.AppCompat.CompoundButton.CheckBox"></style>
+    <style name="Widget.AppCompat.CompoundButton.RadioButton"></style>
+    <style name="Widget.AppCompat.CompoundButton.Switch"></style>
+    <style name="Widget.AppCompat.DrawerArrowToggle">
+        <enum name="com.xiaoji.gamesirnsemulator:attr/color" value="?com.xiaoji.gamesirnsemulator:attr/colorControlNormal" />
+    </style>
+    <style name="Widget.AppCompat.DropDownItem.Spinner"></style>
+    <style name="Widget.AppCompat.EditText"></style>
+    <style name="Widget.AppCompat.ImageButton"></style>
+    <style name="Widget.AppCompat.Light.ActionBar"></style>
+    <style name="Widget.AppCompat.Light.ActionBar.Solid"></style>
+    <style name="Widget.AppCompat.Light.ActionBar.Solid.Inverse"></style>
+    <style name="Widget.AppCompat.Light.ActionBar.TabBar"></style>
+    <style name="Widget.AppCompat.Light.ActionBar.TabBar.Inverse"></style>
+    <style name="Widget.AppCompat.Light.ActionBar.TabText"></style>
+    <style name="Widget.AppCompat.Light.ActionBar.TabText.Inverse"></style>
+    <style name="Widget.AppCompat.Light.ActionBar.TabView"></style>
+    <style name="Widget.AppCompat.Light.ActionBar.TabView.Inverse"></style>
+    <style name="Widget.AppCompat.Light.ActionButton"></style>
+    <style name="Widget.AppCompat.Light.ActionButton.CloseMode"></style>
+    <style name="Widget.AppCompat.Light.ActionButton.Overflow"></style>
+    <style name="Widget.AppCompat.Light.ActionMode.Inverse"></style>
+    <style name="Widget.AppCompat.Light.ActivityChooserView"></style>
+    <style name="Widget.AppCompat.Light.AutoCompleteTextView"></style>
+    <style name="Widget.AppCompat.Light.DropDownItem.Spinner"></style>
+    <style name="Widget.AppCompat.Light.ListPopupWindow"></style>
+    <style name="Widget.AppCompat.Light.ListView.DropDown"></style>
+    <style name="Widget.AppCompat.Light.PopupMenu"></style>
+    <style name="Widget.AppCompat.Light.PopupMenu.Overflow"></style>
+    <style name="Widget.AppCompat.Light.SearchView"></style>
+    <style name="Widget.AppCompat.Light.Spinner.DropDown.ActionBar"></style>
+    <style name="Widget.AppCompat.ListMenuView"></style>
+    <style name="Widget.AppCompat.ListPopupWindow"></style>
+    <style name="Widget.AppCompat.ListView"></style>
+    <style name="Widget.AppCompat.ListView.DropDown"></style>
+    <style name="Widget.AppCompat.ListView.Menu"></style>
+    <style name="Widget.AppCompat.PopupMenu"></style>
+    <style name="Widget.AppCompat.PopupMenu.Overflow"></style>
+    <style name="Widget.AppCompat.PopupWindow"></style>
+    <style name="Widget.AppCompat.ProgressBar"></style>
+    <style name="Widget.AppCompat.ProgressBar.Horizontal"></style>
+    <style name="Widget.AppCompat.RatingBar"></style>
+    <style name="Widget.AppCompat.RatingBar.Indicator"></style>
+    <style name="Widget.AppCompat.RatingBar.Small"></style>
+    <style name="Widget.AppCompat.SearchView"></style>
+    <style name="Widget.AppCompat.SearchView.ActionBar"></style>
+    <style name="Widget.AppCompat.SeekBar"></style>
+    <style name="Widget.AppCompat.SeekBar.Discrete"></style>
+    <style name="Widget.AppCompat.Spinner"></style>
+    <style name="Widget.AppCompat.Spinner.DropDown"></style>
+    <style name="Widget.AppCompat.Spinner.DropDown.ActionBar"></style>
+    <style name="Widget.AppCompat.Spinner.Underlined"></style>
+    <style name="Widget.AppCompat.TextView"></style>
+    <style name="Widget.AppCompat.TextView.SpinnerItem"></style>
+    <style name="Widget.AppCompat.Toolbar"></style>
+    <style name="Widget.AppCompat.Toolbar.Button.Navigation"></style>
+    <style name="Widget.Compat.NotificationActionContainer">
+        <enum name="android:attr/background" value="@com.xiaoji.gamesirnsemulator:drawable/notification_action_background" />
+    </style>
+    <style name="Widget.Compat.NotificationActionText">
+        <enum name="android:attr/textAppearance" value="?android:attr/textAppearanceButton" />
+        <enum name="android:attr/textSize" value="@com.xiaoji.gamesirnsemulator:dimen/notification_action_text_size" />
+        <enum name="android:attr/textColor" value="@com.xiaoji.gamesirnsemulator:color/secondary_text_default_material_light" />
+    </style>
+    <style name="Widget.MaterialProgressBar.ProgressBar">
+        <enum name="android:attr/maxWidth" value="48.0dp" />
+        <enum name="android:attr/maxHeight" value="48.0dp" />
+        <enum name="android:attr/indeterminateOnly" value="false" />
+        <enum name="android:attr/indeterminateDrawable" value="@ResourceId_0x00000000" />
+        <enum name="android:attr/minWidth" value="48.0dp" />
+        <enum name="android:attr/minHeight" value="48.0dp" />
+    </style>
+    <style name="Widget.MaterialProgressBar.ProgressBar.Horizontal">
+        <enum name="android:attr/maxHeight" value="16.0dp" />
+        <enum name="android:attr/indeterminateDrawable" value="@ResourceId_0x00000000" />
+        <enum name="android:attr/minHeight" value="16.0dp" />
+    </style>
+    <style name="Widget.MaterialProgressBar.ProgressBar.Horizontal.NoPadding">
+        <enum name="android:attr/maxHeight" value="4.0dp" />
+        <enum name="android:attr/minHeight" value="4.0dp" />
+    </style>
+    <style name="Widget.MaterialProgressBar.ProgressBar.Large">
+        <enum name="android:attr/maxWidth" value="76.0dp" />
+        <enum name="android:attr/maxHeight" value="76.0dp" />
+        <enum name="android:attr/minWidth" value="76.0dp" />
+        <enum name="android:attr/minHeight" value="76.0dp" />
+    </style>
+    <style name="Widget.MaterialProgressBar.ProgressBar.Large.NoPadding">
+        <enum name="android:attr/maxWidth" value="66.5dp" />
+        <enum name="android:attr/maxHeight" value="66.5dp" />
+        <enum name="android:attr/minWidth" value="66.5dp" />
+        <enum name="android:attr/minHeight" value="66.5dp" />
+    </style>
+    <style name="Widget.MaterialProgressBar.ProgressBar.NoPadding">
+        <enum name="android:attr/maxWidth" value="42.0dp" />
+        <enum name="android:attr/maxHeight" value="42.0dp" />
+        <enum name="android:attr/minWidth" value="42.0dp" />
+        <enum name="android:attr/minHeight" value="42.0dp" />
+    </style>
+    <style name="Widget.MaterialProgressBar.ProgressBar.Small">
+        <enum name="android:attr/maxWidth" value="16.0dp" />
+        <enum name="android:attr/maxHeight" value="16.0dp" />
+        <enum name="android:attr/minWidth" value="16.0dp" />
+        <enum name="android:attr/minHeight" value="16.0dp" />
+    </style>
+    <style name="Widget.MaterialProgressBar.ProgressBar.Small.NoPadding">
+        <enum name="android:attr/maxWidth" value="14.0dp" />
+        <enum name="android:attr/maxHeight" value="14.0dp" />
+        <enum name="android:attr/minWidth" value="14.0dp" />
+        <enum name="android:attr/minHeight" value="14.0dp" />
+    </style>
+    <style name="Widget.Support.CoordinatorLayout">
+        <enum name="com.xiaoji.gamesirnsemulator:attr/statusBarBackground" value="#000000" />
+    </style>
+    <style name="aaaa"></style>
+    <style name="anim_fade">
+        <enum name="android:attr/activityOpenEnterAnimation" value="@com.xiaoji.gamesirnsemulator:anim/anim_fade_in" />
+        <enum name="android:attr/activityOpenExitAnimation" value="@com.xiaoji.gamesirnsemulator:anim/anim_fade_out" />
+        <enum name="android:attr/activityCloseEnterAnimation" value="@com.xiaoji.gamesirnsemulator:anim/anim_fade_in" />
+        <enum name="android:attr/activityCloseExitAnimation" value="@com.xiaoji.gamesirnsemulator:anim/anim_fade_out" />
+    </style>
+    <style name="popwin_anim_style">
+        <enum name="android:attr/windowEnterAnimation" value="@com.xiaoji.gamesirnsemulator:anim/popupshow" />
+        <enum name="android:attr/windowExitAnimation" value="@com.xiaoji.gamesirnsemulator:anim/popuphide" />
+    </style>
+    <style name="smssdk_DialogStyle">
+        <enum name="android:attr/windowBackground" value="@android:color/transparent" />
+        <enum name="android:attr/windowFrame" value="@ResourceId_0x00000000" />
+        <enum name="android:attr/windowNoTitle" value="true" />
+        <enum name="android:attr/windowIsFloating" value="true" />
+        <enum name="android:attr/windowIsTranslucent" value="false" />
+        <enum name="android:attr/background" value="@android:color/transparent" />
+        <enum name="android:attr/backgroundDimEnabled" value="true" />
+    </style>
+    <style name="styleCheckbox">
+        <enum name="android:attr/background" value="@com.xiaoji.gamesirnsemulator:drawable/checkbox_selector" />
+        <enum name="android:attr/button" value="@ResourceId_0x00000000" />
+    </style>
+    <style name="styleFileManagerCheckbox">
+        <enum name="android:attr/background" value="@com.xiaoji.gamesirnsemulator:drawable/checkbox_filemanager_selector" />
+        <enum name="android:attr/button" value="@ResourceId_0x00000000" />
+    </style>
+    <style name="transparent_activity">
+        <enum name="android:attr/windowBackground" value="@com.xiaoji.gamesirnsemulator:color/transparent_background" />
+        <enum name="android:attr/windowNoTitle" value="true" />
+        <enum name="android:attr/windowIsTranslucent" value="true" />
+        <enum name="android:attr/windowAnimationStyle" value="@com.xiaoji.gamesirnsemulator:style/anim_fade" />
+    </style>
+</resources>

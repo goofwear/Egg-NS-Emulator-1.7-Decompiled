@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="0x800013" android:orientation="0" android:background="?com.xiaoji.gamesirnsemulator:attr/selectableItemBackground" android:focusable="true" android:layout_width="-1" android:layout_height="-2" android:minHeight="@dimen/md_listitem_height">
+    <TextView android:textSize="@dimen/md_listitem_textsize" android:gravity="0x10" android:layout_gravity="0x800003" android:id="@id/md_title" android:paddingTop="@dimen/md_listitem_vertical_margin" android:paddingBottom="@dimen/md_listitem_vertical_margin" android:layout_width="-2" android:layout_height="-1" android:layout_marginLeft="@dimen/md_listitem_margin_left" android:layout_marginRight="@dimen/md_dialog_frame_margin" android:layout_marginStart="@dimen/md_listitem_margin_left" android:layout_marginEnd="@dimen/md_dialog_frame_margin"/>
+</LinearLayout>

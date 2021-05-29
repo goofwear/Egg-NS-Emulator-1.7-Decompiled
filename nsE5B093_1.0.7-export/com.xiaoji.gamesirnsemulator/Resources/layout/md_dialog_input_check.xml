@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<com.afollestad.materialdialogs.internal.MDRootLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="1" android:layout_width="-1" android:layout_height="-2" app:md_reduce_padding_no_title_no_buttons="false">
+    <include layout="@layout/md_stub_titleframe"/>
+    <LinearLayout android:orientation="1" android:paddingTop="@dimen/md_content_padding_top" android:paddingBottom="@dimen/md_content_padding_bottom" android:layout_width="-1" android:layout_height="0.0dp" android:layout_weight="1.0">
+        <TextView android:textSize="@dimen/md_content_textsize" android:layout_gravity="0x1" android:id="@id/md_content" android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="@dimen/md_dialog_frame_margin" android:layout_marginTop="4.0dp" android:layout_marginRight="@dimen/md_dialog_frame_margin" android:layout_marginBottom="@dimen/md_content_padding_bottom" android:fontFamily="sans-serif"/>
+        <RelativeLayout android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="@dimen/md_dialog_frame_margin" android:layout_marginRight="@dimen/md_dialog_frame_margin">
+            <EditText android:textSize="@dimen/md_content_textsize" android:id="@android:id/input" android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="-2.0dp" android:layout_marginRight="-2.0dp" android:layout_marginBottom="1.0dp"/>
+            <TextView android:textSize="12.0sp" android:gravity="0x800005" android:id="@id/md_minMax" android:paddingRight="4.0dp" android:layout_width="-2" android:layout_height="-2" android:minWidth="48.0dp" android:layout_below="@android:id/input" android:layout_alignRight="@android:id/input" android:fontFamily="sans-serif" android:textAlignment="6" android:paddingEnd="4.0dp" android:layout_alignEnd="@android:id/input"/>
+        </RelativeLayout>
+        <CheckBox android:id="@id/md_promptCheckbox" android:focusable="true" android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="@dimen/md_notitle_vertical_padding_more" android:layout_marginRight="@dimen/md_notitle_vertical_padding_more"/>
+    </LinearLayout>
+    <include layout="@layout/md_stub_actionbuttons"/>
+</com.afollestad.materialdialogs.internal.MDRootLayout>

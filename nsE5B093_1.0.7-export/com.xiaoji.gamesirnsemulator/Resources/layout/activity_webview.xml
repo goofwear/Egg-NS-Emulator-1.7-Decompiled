@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="1" android:tag="layout/activity_webview_0" android:background="@color/colorPrimary" android:fitsSystemWindows="true" android:layout_width="-1" android:layout_height="-1">
+    <androidx.appcompat.widget.Toolbar xmlns:app="http://schemas.android.com/apk/res-auto" android:id="@id/toolbar" android:layout_width="-1" android:layout_height="50.0dp" android:minHeight="?com.xiaoji.gamesirnsemulator:attr/actionBarSize" app:contentInsetLeft="0.0dp" app:contentInsetStart="0.0dp">
+        <FrameLayout android:id="@id/f_title_bar" android:layout_width="-1" android:layout_height="-1">
+            <ImageView android:id="@id/btn_back" android:padding="17.0dp" android:layout_width="50.0dp" android:layout_height="-1" android:src="@drawable/nav_icon_back"/>
+            <TextView android:textSize="17.0sp" android:textColor="@color/black" android:ellipsize="2" android:gravity="0x11" android:id="@id/title" android:layout_width="-1" android:layout_height="-1" android:layout_marginLeft="50.0dp" android:layout_marginRight="10.0dp" android:singleLine="true" android:layout_marginStart="50.0dp" android:layout_marginEnd="10.0dp"/>
+        </FrameLayout>
+    </androidx.appcompat.widget.Toolbar>
+    <ProgressBar android:id="@id/progressBar_load" android:background="@ResourceId_0x00000000" android:visibility="2" android:layout_width="-1" android:layout_height="3.0dp" android:progressDrawable="@drawable/progress_bar_layer" style="?android:attr/progressBarStyleHorizontal"/>
+    <WebView android:id="@id/mWebView" android:layout_width="-1" android:layout_height="-1"/>
+</LinearLayout>

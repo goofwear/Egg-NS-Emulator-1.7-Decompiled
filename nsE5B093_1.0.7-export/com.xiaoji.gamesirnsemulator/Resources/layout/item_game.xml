@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:binding="http://schemas.android.com/apk/res-auto" android:gravity="0x11" android:orientation="1" android:tag="layout/item_game_0" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="28.0mm" android:layout_marginStart="28.0mm">
+    <FrameLayout android:layout_width="150.0dp" android:layout_height="150.0dp">
+        <ImageView android:tag="binding_1" android:layout_width="-1" android:layout_height="-1" android:scaleType="6"/>
+        <TextView android:textSize="30.0mm" android:textColor="@color/white" android:gravity="0x11" android:layout_gravity="0x50" android:tag="binding_2" android:background="@color/item_bg_trans" android:layout_width="-1" android:layout_height="126.0mm"/>
+        <ImageView android:layout_gravity="0x800005" android:tag="binding_3" android:layout_width="60.0mm" android:layout_height="60.0mm" android:layout_margin="12.0mm" android:src="@drawable/home_icon_setting" android:scaleType="1"/>
+    </FrameLayout>
+</LinearLayout>

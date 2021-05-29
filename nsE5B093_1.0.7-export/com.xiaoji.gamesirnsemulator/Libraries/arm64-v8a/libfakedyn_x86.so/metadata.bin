@@ -1,0 +1,20 @@
+ELF metadata
+
+- Comment:
+
+  + GCC: (GNU) 4.9.x 20150123 (prerelease)
+  + Android clang version 5.0.300080  (based on LLVM 5.0.300080)
+
+- Notes:
+
+  + Owner: Android
+    - type: 1
+    - description: Android API version:21 - NDK version:r16b - NDK build number:4479499
+
+  + Owner: GNU
+    - type: NT_GNU_BUILD_ID (unique build ID)
+    - description: Build ID[sha1]=2B0E072F43C035375A045D92CD7C2AD86817CD6E
+
+  + Owner: GNU
+    - type: NT_GNU_GOLD_VERSION (gold linker version)
+    - description: gold 1.12

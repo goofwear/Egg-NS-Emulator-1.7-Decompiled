@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:background="@drawable/item_selector_filemanager" android:paddingLeft="10.0dp" android:paddingTop="5.0dp" android:paddingRight="10.0dp" android:paddingBottom="5.0dp" android:layout_width="-1" android:layout_height="-2" android:paddingStart="10.0dp" android:paddingEnd="10.0dp">
+    <ImageView android:id="@id/fileIcon" android:layout_width="30.0dp" android:layout_height="30.0dp" android:layout_centerVertical="true"/>
+    <FrameLayout android:id="@id/checkbox_layout" android:layout_width="60.0dp" android:layout_height="40.0dp" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:layout_alignParentEnd="true">
+        <ImageView android:layout_gravity="0x11" android:id="@id/checkbox" android:layout_width="16.0dp" android:layout_height="16.0dp" android:src="@drawable/pop_icon_input_nomal" android:scaleType="1"/>
+    </FrameLayout>
+    <RelativeLayout android:gravity="0x800003" android:id="@id/layout_container" android:paddingLeft="10.0dp" android:layout_width="-1" android:layout_height="-2" android:layout_toLeftOf="@id/checkbox_layout" android:layout_toRightOf="@id/fileIcon" android:layout_centerVertical="true" android:paddingStart="10.0dp" android:layout_toStartOf="@id/checkbox_layout" android:layout_toEndOf="@id/fileIcon">
+        <TextView android:textSize="14.0sp" android:textColor="@color/color_font_6" android:ellipsize="2" android:gravity="0x800003" android:id="@id/fileName" android:layout_width="-2" android:layout_height="-2" android:singleLine="true"/>
+        <TextView android:textSize="12.0sp" android:textColor="@color/color_font_2" android:gravity="0x11" android:id="@id/fileChildCount" android:layout_width="-2" android:layout_height="-2" android:layout_below="@id/fileName"/>
+        <TextView android:textSize="12.0sp" android:textColor="@color/color_font_2" android:gravity="0x11" android:id="@id/fileSize" android:visibility="2" android:layout_width="-2" android:layout_height="-2" android:layout_below="@id/fileName"/>
+    </RelativeLayout>
+</RelativeLayout>

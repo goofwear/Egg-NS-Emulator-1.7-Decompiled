@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:tag="layout/activity_filemanager_0" android:background="#50000000" android:fitsSystemWindows="true" android:layout_width="-1" android:layout_height="-1">
+    <ImageView android:tag="binding_1" android:background="@drawable/pop_icon_close" android:layout_width="25.0dp" android:layout_height="25.0dp" android:layout_marginLeft="5.0dp" android:scaleType="1" android:layout_marginStart="5.0dp" app:layout_constraintLeft_toRightOf="@id/layout_container" app:layout_constraintStart_toEndOf="@id/layout_container" app:layout_constraintTop_toTopOf="0"/>
+    <LinearLayout android:orientation="1" android:id="@id/layout_container" android:background="@drawable/bg_circular_white_2" android:paddingLeft="25.0dp" android:paddingRight="25.0dp" android:paddingBottom="10.0dp" android:layout_width="-1" android:layout_height="-1" android:layout_marginLeft="140.0dp" android:layout_marginRight="140.0dp" android:layout_marginBottom="20.0dp" android:paddingStart="25.0dp" android:paddingEnd="25.0dp" android:layout_marginStart="140.0dp" android:layout_marginEnd="140.0dp">
+        <RelativeLayout android:id="@id/activity_main" android:layout_width="-1" android:layout_height="-1" android:layout_weight="1.0">
+            <LinearLayout android:orientation="1" android:id="@id/fileState_rel" android:layout_width="-1" android:layout_height="-2">
+                <androidx.recyclerview.widget.RecyclerView android:id="@id/title_recycler_view" android:layout_width="-1" android:layout_height="-1"/>
+                <View android:background="#dddddd" android:layout_width="-1" android:layout_height="1.0dp"/>
+            </LinearLayout>
+            <RelativeLayout android:layout_width="-1" android:layout_height="-1" android:layout_below="@id/fileState_rel">
+                <androidx.recyclerview.widget.RecyclerView android:id="@id/recycler_view" android:layout_width="-1" android:layout_height="-1"/>
+                <LinearLayout android:gravity="0x11" android:orientation="1" android:id="@id/empty_rel" android:visibility="2" android:layout_width="-1" android:layout_height="-1" android:layout_marginBottom="30.0dp">
+                    <ImageView android:layout_gravity="0x11" android:layout_width="60.0dp" android:layout_height="45.0dp" android:src="@drawable/pop_icon_folder" android:scaleType="1"/>
+                    <TextView android:textSize="14.0sp" android:textColor="@color/color_font_2" android:layout_gravity="0x11" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="6.0dp" android:text="@string/dialog_no_doc"/>
+                </LinearLayout>
+            </RelativeLayout>
+        </RelativeLayout>
+        <TextView android:textColor="@color/white" android:gravity="0x11" android:layout_gravity="0x1" android:tag="binding_2" android:background="@drawable/bg_circular_red_bg" android:layout_width="100.0dp" android:layout_height="30.0dp" android:layout_marginTop="5.0dp" android:text="@string/sure"/>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

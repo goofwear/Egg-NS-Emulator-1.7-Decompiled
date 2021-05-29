@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:binding="http://schemas.android.com/apk/res-auto" android:gravity="0x11" android:tag="layout/dialog_account_management_0" android:background="@color/transparent_background" android:layout_width="-1" android:layout_height="-1">
+    <LinearLayout android:layout_gravity="0x11" android:orientation="1" android:tag="binding_1" android:background="@drawable/bg_circular_white_2" android:layout_width="960.0mm" android:layout_height="-2">
+        <TextView android:textSize="48.0mm" android:textColor="@color/black" android:gravity="0x11" android:layout_gravity="0x11" android:id="@id/title" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="80.0mm" android:text="@string/dialog_account_title"/>
+        <androidx.recyclerview.widget.RecyclerView android:layout_gravity="0x11" android:id="@id/recycler_view" android:tag="binding_2" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="40.0mm" android:layout_above="@id/btn_add_user" android:layout_below="@id/btn_back"/>
+        <LinearLayout android:gravity="0x11" android:orientation="0" android:padding="50.0mm" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="20.0mm" android:showDividers="0x2">
+            <TextView android:textSize="36.0mm" android:textColor="@color/color_font" android:gravity="0x11" android:id="@id/cancel" android:background="@drawable/bg_circular_red_grey" android:visibility="2" android:layout_width="280.0mm" android:layout_height="80.0mm" android:layout_marginRight="80.0mm" android:text="@string/cancel" android:layout_marginEnd="80.0mm"/>
+            <TextView android:textSize="36.0mm" android:textColor="@color/white" android:gravity="0x11" android:id="@id/ok" android:tag="binding_3" android:background="@drawable/bg_circular_red_bg" android:layout_width="280.0mm" android:layout_height="80.0mm" android:text="@string/dialog_start_game"/>
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>
